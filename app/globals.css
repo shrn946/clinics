@@ -375,6 +375,9 @@ body {
 /* Contact Info Box */
 .contact-now-box {
   margin-left: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
 }
 
 .contact-now-box .icon-box {
@@ -413,7 +416,14 @@ body {
   font-weight: 700 !important;
   color: var(--primary-color) !important;
   margin: 0 !important;
+  white-space: nowrap !important;
+  transition: color 0.25s ease !important;
 }
+
+.contact-now-box:hover .contact-now-box-content h3 {
+  color: var(--accent-color) !important;
+}
+
 
 /* Header Button */
 .header-btn .btn-default {

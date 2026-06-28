@@ -92,7 +92,7 @@ export default function Header() {
                 </ul>
               </div>
               {/* Contact Now Box Start */}
-              <div className="contact-now-box d-inline-flex">
+              <a href="tel:+01789987645" className="contact-now-box d-inline-flex" style={{ textDecoration: 'none' }}>
                 <div className="icon-box">
                   <img src="/images/icon-phone-header.svg" alt="Phone" />
                 </div>
@@ -100,7 +100,7 @@ export default function Header() {
                   <p>Need help ?</p>
                   <h3>(+01) 789 987 645</h3>
                 </div>
-              </div>
+              </a>
               {/* Contact Now Box End */}
               {/* Header Appointment Button */}
               <div className="header-btn d-inline-flex ms-3">

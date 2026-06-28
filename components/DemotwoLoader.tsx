@@ -72,13 +72,40 @@ export default function DemotwoLoader({ bodyContent, bodyClass }: DemotwoLoaderP
     const container = document.getElementById('demotwo-content');
     if (!container) return;
 
-    // Find all script elements inside the page
-    const scripts = Array.from(container.querySelectorAll('script'));
     const loadedScripts: HTMLScriptElement[] = [];
 
+    // Core jQuery requirements that must be loaded and initialized first
+    const coreScripts = [
+      '/demotwo/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1',
+      '/demotwo/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1'
+    ];
+
+    const pageScripts = Array.from(container.querySelectorAll('script'));
+
+    const loadCoreScripts = (index: number, callback: () => void) => {
+      if (index >= coreScripts.length) {
+        callback();
+        return;
+      }
+      const newScript = document.createElement('script');
+      newScript.src = coreScripts[index];
+      newScript.async = false;
+      newScript.onload = () => loadCoreScripts(index + 1, callback);
+      newScript.onerror = () => loadCoreScripts(index + 1, callback);
+      document.body.appendChild(newScript);
+      loadedScripts.push(newScript);
+    };
+
     const loadScriptInSequence = (index: number) => {
-      if (index >= scripts.length) return;
-      const script = scripts[index];
+      if (index >= pageScripts.length) return;
+      const script = pageScripts[index];
+
+      // Skip duplicate script tags loading jquery if they appear in the body content
+      if (script.src && (script.src.includes('jquery.min') || script.src.includes('jquery-migrate'))) {
+        loadScriptInSequence(index + 1);
+        return;
+      }
+
       const newScript = document.createElement('script');
       
       // Copy attributes
@@ -106,8 +133,10 @@ export default function DemotwoLoader({ bodyContent, bodyClass }: DemotwoLoaderP
       }
     };
 
-    // Start script loader execution chain
-    loadScriptInSequence(0);
+    // Load jQuery requirements first, then load the sequential page scripts
+    loadCoreScripts(0, () => {
+      loadScriptInSequence(0);
+    });
 
     return () => {
       // Revert body classes when unmounting / navigating away

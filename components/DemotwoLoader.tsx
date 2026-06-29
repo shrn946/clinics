@@ -133,9 +133,39 @@ export default function DemotwoLoader({ bodyContent, bodyClass }: DemotwoLoaderP
       }
     };
 
+    const animatePercentages = () => {
+      const percentageElements = document.querySelectorAll('.number-percentage');
+      percentageElements.forEach((el) => {
+        const targetVal = parseInt(el.getAttribute('data-value') || '0', 10);
+        if (targetVal <= 0) return;
+
+        const duration = 1500; // Count duration in ms
+        const steps = 40;
+        const stepDuration = duration / steps;
+        let currentStep = 0;
+
+        // Reset element content to 0 initially
+        el.textContent = '0';
+
+        const timer = setInterval(() => {
+          currentStep++;
+          const progress = currentStep / steps;
+          const easeProgress = progress * (2 - progress);
+          el.textContent = Math.floor(easeProgress * targetVal).toString();
+
+          if (currentStep >= steps) {
+            el.textContent = targetVal.toString();
+            clearInterval(timer);
+          }
+        }, stepDuration);
+      });
+    };
+
     // Load jQuery requirements first, then load the sequential page scripts
     loadCoreScripts(0, () => {
       loadScriptInSequence(0);
+      // Animate percentage counter widgets after page renders
+      setTimeout(animatePercentages, 600);
     });
 
     return () => {

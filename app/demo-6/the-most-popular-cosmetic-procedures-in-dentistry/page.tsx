@@ -1,5 +1,6 @@
 
 import Chatbot from '@/components/Chatbot';
+import Demo6Scripts from '@/components/demo-6/Demo6Scripts';
 
 export default function Page() {
   return (
@@ -125,8 +126,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <nav aria-label="Menu" class="theme-nav-menu--main theme-nav-menu__container theme-nav-menu--layout-horizontal e--pointer-none">
 <ul class="theme-nav-menu" id="menu-1-1f042073"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-238"><a class="theme-item theme-item-anchor" href="#">Homepages</a>
 <ul class="sub-menu theme-nav-menu--dropdown">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="/demo-6">Home 01</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="../home-02/index.html">Home 02</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="../index.html">Home 01</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="/demo-6">Home 02</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-239"><a class="theme-item theme-item-anchor" href="#">Pages</a>
@@ -160,8 +161,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <nav aria-hidden="true" class="theme-nav-menu--dropdown theme-nav-menu__container">
 <ul class="theme-nav-menu" id="menu-2-1f042073"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-238"><a class="theme-item theme-item-anchor" href="#" tabindex="-1">Homepages</a>
 <ul class="sub-menu theme-nav-menu--dropdown">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="/demo-6" tabindex="-1">Home 01</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="../home-02/index.html" tabindex="-1">Home 02</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="../index.html" tabindex="-1">Home 01</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="/demo-6" tabindex="-1">Home 02</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-239"><a class="theme-item theme-item-anchor" href="#" tabindex="-1">Pages</a>
@@ -221,7 +222,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>
 <div class="theme-element theme-element-98d1e4e text-center theme-widget theme-widget-tp-breadcrumbs-bar" data-e-type="widget" data-element_type="widget" data-id="98d1e4e" data-widget_type="tp-breadcrumbs-bar.default">
 <div class="theme-widget-container">
-<div "="" class="pt_plus_breadcrumbs_bar" id="bread6a41e52dde571"><div class="pt_plus_breadcrumbs_bar_inner bred_style_1"><nav id="breadcrumbs"><span class="bc_home"><a class="home_bread_tab" href="/demo-6"><i class="fa fa-bank bread-home-icon"></i>Home</a></span> <span class="del"></span> <span class="current on-off-current"><div class="current_tab_sec">The most popular cosmetic procedures in dentistry</div></span></nav></div></div> </div>
+<div "="" class="pt_plus_breadcrumbs_bar" id="bread6a41e52dde571"><div class="pt_plus_breadcrumbs_bar_inner bred_style_1"><nav id="breadcrumbs"><span class="bc_home"><a class="home_bread_tab" href="../index.html"><i class="fa fa-bank bread-home-icon"></i>Home</a></span> <span class="del"></span> <span class="current on-off-current"><div class="current_tab_sec">The most popular cosmetic procedures in dentistry</div></span></nav></div></div> </div>
 </div>
 </div>
 </div>
@@ -231,11 +232,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <div class="theme-element theme-element-16936673 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="16936673">
 <div class="theme-element theme-element-a4d3dc7 theme-widget theme-widget-tp-post-featured-image" data-e-type="widget" data-element_type="widget" data-id="a4d3dc7" data-widget_type="tp-post-featured-image.default">
 <div class="theme-widget-container">
-<div class="tp-post-image"><div class="tp-featured-image"><a href="/demo-6"><img alt="" class="tp-featured-img" decoding="async" fetchpriority="high" height="1000" sizes="(max-width: 1500px) 100vw, 1500px" src="../assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min.jpg" srcset="https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min.jpg 1500w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-300x200.jpg 300w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-1024x683.jpg 1024w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-768x512.jpg 768w" width="1500"/></a></div></div> </div>
+<div class="tp-post-image"><div class="tp-featured-image"><a href="index.html"><img alt="" class="tp-featured-img" decoding="async" fetchpriority="high" height="1000" sizes="(max-width: 1500px) 100vw, 1500px" src="../assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min.jpg" srcset="https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min.jpg 1500w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-300x200.jpg 300w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-1024x683.jpg 1024w, https://templateup.site/dental/assets/uploads/sites/19/2024/09/smiling-dentists-interacting-with-young-patient-2021-08-28-16-45-12-utc-min-768x512.jpg 768w" width="1500"/></a></div></div> </div>
 </div>
 <div class="theme-element theme-element-78ee315 theme-widget theme-widget-tp-post-meta" data-e-type="widget" data-element_type="widget" data-id="78ee315" data-widget_type="tp-post-meta.default">
 <div class="theme-widget-container">
-<div class="tp-post-meta-info tp-meta-layout-1"><div class="tp-post-meta-info-inner"><span class="tp-meta-author"><span class="tp-meta-author-label tp-meta-label">By</span><a class="tp-meta-value" href="../author/william/index.html" rel="author">TemplateUp</a></span><span class="tp-meta-date"><span class="tp-meta-date-label tp-meta-label"></span><a class="tp-meta-value" href="/demo-6">September 30, 2024</a></span><span class="tp-meta-category style-1"><span class="tp-meta-category-label tp-meta-label">in</span><span class="tp-meta-category-list"></span></span><span class="tp-meta-comment"><span class="tp-meta-comment-label tp-meta-label">Comment</span><a class="tp-meta-value" href="index.html#respond" rel="comment">No Comments</a></span></div></div> </div>
+<div class="tp-post-meta-info tp-meta-layout-1"><div class="tp-post-meta-info-inner"><span class="tp-meta-author"><span class="tp-meta-author-label tp-meta-label">By</span><a class="tp-meta-value" href="../author/william/index.html" rel="author">TemplateUp</a></span><span class="tp-meta-date"><span class="tp-meta-date-label tp-meta-label"></span><a class="tp-meta-value" href="index.html">September 30, 2024</a></span><span class="tp-meta-category style-1"><span class="tp-meta-category-label tp-meta-label">in</span><span class="tp-meta-category-list"></span></span><span class="tp-meta-comment"><span class="tp-meta-comment-label tp-meta-label">Comment</span><a class="tp-meta-value" href="index.html#respond" rel="comment">No Comments</a></span></div></div> </div>
 </div>
 <div class="theme-element theme-element-8fbf774 theme-widget theme-widget-tp-post-content" data-e-type="widget" data-element_type="widget" data-id="8fbf774" data-widget_type="tp-post-content.default">
 <div class="theme-widget-container">
@@ -464,6 +465,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 
 ` }} />
+      <Demo6Scripts />
       <Chatbot themeColor="#00bcd4" />
     </div>
   );

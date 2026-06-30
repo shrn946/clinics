@@ -1,5 +1,6 @@
 
 import Chatbot from '@/components/Chatbot';
+import Demo6Scripts from '@/components/demo-6/Demo6Scripts';
 
 export default function Page() {
   return (
@@ -125,8 +126,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <nav aria-label="Menu" class="theme-nav-menu--main theme-nav-menu__container theme-nav-menu--layout-horizontal e--pointer-none">
 <ul class="theme-nav-menu" id="menu-1-1f042073"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-238"><a class="theme-item theme-item-anchor" href="#">Homepages</a>
 <ul class="sub-menu theme-nav-menu--dropdown">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="/demo-6">Home 01</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="../home-02/index.html">Home 02</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="../index.html">Home 01</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="/demo-6">Home 02</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-239"><a class="theme-item theme-item-anchor" href="#">Pages</a>
@@ -144,7 +145,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a class="theme-sub-item" href="/demo-6/prosthetics">Prosthetics</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a class="theme-sub-item" href="/demo-6/root-canal-treatment">Root Canal Treatment</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a class="theme-sub-item" href="/demo-6/tooth-whitening">Tooth Whitening</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-151 current_page_item menu-item-231"><a aria-current="page" class="theme-sub-item theme-item-active" href="/demo-6">Lenses</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-151 current_page_item menu-item-231"><a aria-current="page" class="theme-sub-item theme-item-active" href="index.html">Lenses</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-240"><a class="theme-item theme-item-anchor" href="#">Blog</a>
@@ -160,8 +161,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <nav aria-hidden="true" class="theme-nav-menu--dropdown theme-nav-menu__container">
 <ul class="theme-nav-menu" id="menu-2-1f042073"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-238"><a class="theme-item theme-item-anchor" href="#" tabindex="-1">Homepages</a>
 <ul class="sub-menu theme-nav-menu--dropdown">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="/demo-6" tabindex="-1">Home 01</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="../home-02/index.html" tabindex="-1">Home 02</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-224"><a class="theme-sub-item" href="../index.html" tabindex="-1">Home 01</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a class="theme-sub-item" href="/demo-6" tabindex="-1">Home 02</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-239"><a class="theme-item theme-item-anchor" href="#" tabindex="-1">Pages</a>
@@ -179,7 +180,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a class="theme-sub-item" href="/demo-6/prosthetics" tabindex="-1">Prosthetics</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a class="theme-sub-item" href="/demo-6/root-canal-treatment" tabindex="-1">Root Canal Treatment</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a class="theme-sub-item" href="/demo-6/tooth-whitening" tabindex="-1">Tooth Whitening</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-151 current_page_item menu-item-231"><a aria-current="page" class="theme-sub-item theme-item-active" href="/demo-6" tabindex="-1">Lenses</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-151 current_page_item menu-item-231"><a aria-current="page" class="theme-sub-item theme-item-active" href="index.html" tabindex="-1">Lenses</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-240"><a class="theme-item theme-item-anchor" href="#" tabindex="-1">Blog</a>
@@ -221,7 +222,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>
 <div class="theme-element theme-element-7d6e5ab text-center theme-widget theme-widget-tp-breadcrumbs-bar" data-e-type="widget" data-element_type="widget" data-id="7d6e5ab" data-widget_type="tp-breadcrumbs-bar.default">
 <div class="theme-widget-container">
-<div "="" class="pt_plus_breadcrumbs_bar" id="bread6a41e48cadcac"><div class="pt_plus_breadcrumbs_bar_inner bred_style_1"><nav id="breadcrumbs"><span class="bc_home"><a class="home_bread_tab" href="/demo-6"><i class="fa fa-bank bread-home-icon"></i>Home</a></span> <span class="del"></span> <span class="current on-off-current"><div class="current_tab_sec">Lenses</div></span></nav></div></div> </div>
+<div "="" class="pt_plus_breadcrumbs_bar" id="bread6a41e48cadcac"><div class="pt_plus_breadcrumbs_bar_inner bred_style_1"><nav id="breadcrumbs"><span class="bc_home"><a class="home_bread_tab" href="../index.html"><i class="fa fa-bank bread-home-icon"></i>Home</a></span> <span class="del"></span> <span class="current on-off-current"><div class="current_tab_sec">Lenses</div></span></nav></div></div> </div>
 </div>
 </div>
 </div>
@@ -668,6 +669,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 
 ` }} />
+      <Demo6Scripts />
       <Chatbot themeColor="#00bcd4" />
     </div>
   );

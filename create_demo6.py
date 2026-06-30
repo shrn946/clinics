@@ -16,7 +16,7 @@ os.makedirs(COMP_DIR, exist_ok=True)
 
 # List of allowed pages (excluding blog-related)
 PAGES = {
-    'index.html': '/demo-6',
+    'home-02/index.html': '/demo-6',
     'about-us/index.html': '/demo-6/about-us',
     'contact-us/index.html': '/demo-6/contact-us',
     'services/index.html': '/demo-6/services',
@@ -201,12 +201,14 @@ for src_file, route in PAGES.items():
     
     page_tsx = f"""
 import Chatbot from '@/components/Chatbot';
+import Demo6Scripts from '@/components/demo-6/Demo6Scripts';
 
 export default function Page() {{
   return (
     <div className="{body_classes}">
       {inline_styles_html}
       <div dangerouslySetInnerHTML={{{{ __html: `{body_html}` }}}} />
+      <Demo6Scripts />
       <Chatbot themeColor="#00bcd4" />
     </div>
   );

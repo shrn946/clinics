@@ -30,7 +30,7 @@ export default function Page() {
             <section id="home" class="slider-area fix p-relative">
                
                 <div class="slider-active" style="background: #00173c;">
-				<div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg.png); background-size: cover;">
+				<div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(/demo-5/img/slider/slider_bg.png); background-size: cover;">
                         <div class="container">
                            <div class="row justify-content-center align-items-center">
                               
@@ -51,11 +51,11 @@ export default function Page() {
                                 </div>
                                 <div class="col-lg-5 col-md-5 p-relative">
                                     <div class="banner-img">
-                                        <img src="img/slider/slider-img.png" alt="banner">
+                                        <img src="/demo-5/img/slider/slider-img.png" alt="banner">
                                     </div>
                                      <div class="s-aliment-1 ">
                                         <div class="aliment-icon-red">
-                                            <img src="img/slider/banner-aliment-icon-1.png" alt="icon">
+                                            <img src="/demo-5/img/slider/banner-aliment-icon-1.png" alt="icon">
                                         </div>
                                         <div class="aliment-content">
                                             <h3 class="h3-title">Dr. Mubara Doe</h3>
@@ -97,7 +97,7 @@ export default function Page() {
                                       <h4>Root Canal</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
-                                      <div class="icon-right"><img src="img/icon/fe-icon01.png" alt="icon01"></div>
+                                      <div class="icon-right"><img src="/demo-5/img/icon/fe-icon01.png" alt="icon01"></div>
                                 </li>
                                 <li>
                                     
@@ -105,7 +105,7 @@ export default function Page() {
                                       <h4>Alignment Teeth</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
-                                    <div class="icon-right"><img src="img/icon/fe-icon05.png" alt="icon01"></div>
+                                    <div class="icon-right"><img src="/demo-5/img/icon/fe-icon05.png" alt="icon01"></div>
                                 </li>
                                  <li>
                                    
@@ -113,7 +113,7 @@ export default function Page() {
                                        <h4>Cosmetic Teeth</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
-                                      <div class="icon-right"><img src="img/icon/fe-icon07.png" alt="icon01"></div>
+                                      <div class="icon-right"><img src="/demo-5/img/icon/fe-icon07.png" alt="icon01"></div>
                                 </li>
                                 
                                
@@ -124,7 +124,7 @@ export default function Page() {
                         </div>
                          <div class="col-lg-4 col-md-12 col-sm-12 text-center d-none d-lg-block">
                             <div class="sd-img">
-                                <img src="img/features/services-img-details2.png" alt="img">    
+                                <img src="/demo-5/img/features/services-img-details2.png" alt="img">    
                             </div>
                           
                         </div>
@@ -134,21 +134,21 @@ export default function Page() {
                           
                                  <ul class="sr-tw-ul">
                                 <li>
-                                    <div class="icon"><img src="img/icon/fe-icon04.png" alt="icon01"></div>
+                                    <div class="icon"><img src="/demo-5/img/icon/fe-icon04.png" alt="icon01"></div>
                                      <div class="text pt-10">
                                        <h4>Oral Hygiene</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
                                 </li>
                                 <li>
-                                     <div class="icon"><img src="img/icon/fe-icon06.png" alt="icon01"></div>
+                                     <div class="icon"><img src="/demo-5/img/icon/fe-icon06.png" alt="icon01"></div>
                                      <div class="text pt-10">
                                        <h4>Live Advisory</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
                                     </div>
                                 </li>
                                  <li>
-                                     <div class="icon"><img src="img/icon/fe-icon08.png" alt="icon01"></div>
+                                     <div class="icon"><img src="/demo-5/img/icon/fe-icon08.png" alt="icon01"></div>
                                      <div class="text pt-10">
                                        <h4>Cavity Inspection</h4> 
                                         <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -172,7 +172,7 @@ export default function Page() {
                     <div class="row justify-content-center align-items-center">
                          <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <img src="img/features/about_img.png" alt="img">   
+                                <img src="/demo-5/img/features/about_img.png" alt="img">   
                                <div class="about-text second-about">
                                     <span>50</span>
                                     <p>Years of Experience</p>
@@ -263,86 +263,86 @@ export default function Page() {
                             <div class="testimonial-active">
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Margie Dose</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                     <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                               <div class="single-testimonial">
                                   <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                 <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                 <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Dose Robot</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                    <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                    <div class="ta-info">
                                            <h6>Margie Dose</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                     <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -370,7 +370,7 @@ export default function Page() {
                           <div class="pricing-box pricing-box2 text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon1.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon1.png" alt="img">
                                         </div>
                                         <h3>Basic Plan</h3>  
                                             <div class="price-count">
@@ -398,7 +398,7 @@ export default function Page() {
                              <div class="pricing-box pricing-box2 active text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon2.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon2.png" alt="img">
                                         </div>
                                         <h3>Standard Plan </h3>  
                                             <div class="price-count">
@@ -427,7 +427,7 @@ export default function Page() {
                              <div class="pricing-box pricing-box2 text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon3.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon3.png" alt="img">
                                         </div>
                                         <h3>Unlimited Plan</h3>  
                                             <div class="price-count">
@@ -536,7 +536,7 @@ export default function Page() {
                         </div>
                          <div class="col-lg-6">
                             <div class="faq-img text-right">
-                                <img src="img/bg/faq-img.png" alt="img" class="img">
+                                <img src="/demo-5/img/bg/faq-img.png" alt="img" class="img">
                             </div>
                         </div>
                     </div>
@@ -563,7 +563,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team01.png" alt="img">
+                                         <img src="/demo-5/img/team/team01.png" alt="img">
                                         
                                     </div>
                                 </div>
@@ -584,7 +584,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team02.png" alt="img">
+                                        <img src="/demo-5/img/team/team02.png" alt="img">
                                     </div>                                     
                                 </div>
                                 <div class="team-info">
@@ -604,7 +604,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team03.png" alt="img">
+                                        <img src="/demo-5/img/team/team03.png" alt="img">
                                     </div>
                                     
                                 </div>
@@ -625,7 +625,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team04.png" alt="img">
+                                         <img src="/demo-5/img/team/team04.png" alt="img">
                                     </div>
                                 
                                 </div>
@@ -646,7 +646,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team03.png" alt="img">
+                                        <img src="/demo-5/img/team/team03.png" alt="img">
                                     </div>
                                     
                                 </div>
@@ -669,12 +669,12 @@ export default function Page() {
             </section>
             <!-- team-area-end --> 
             <!-- call-area -->
-            <div class="call-area" style="background-image:url(img/bg/call-bg.png); background-repeat: no-repeat; background-position: bottom;">
+            <div class="call-area" style="background-image:url(/demo-5/img/bg/call-bg.png); background-repeat: no-repeat; background-position: bottom;">
                 <div class="container">
                     <div class="row align-items-center">
                          <div class="col-lg-5 col-md-5 col-sm-12">
                              <div class="single-counter-img fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-								 <img src="img/bg/call-man.png" alt="img" class="img">
+								 <img src="/demo-5/img/bg/call-man.png" alt="img" class="img">
                             </div>
                         </div>
                       <div class="col-lg-7 col-md-7 col-sm-12">        
@@ -708,7 +708,7 @@ export default function Page() {
                        <div class="col-lg-4 col-md-6">
                             <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b1.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b1.jpg" alt="img"></a>
                                 </div>                    
                                 <div class="blog-content2">    
                                     <div class="date-home">
@@ -724,7 +724,7 @@ export default function Page() {
                          <div class="col-lg-4 col-md-6">
                             <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b2.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b2.jpg" alt="img"></a>
                                 </div>
                                 <div class="blog-content2">                                    
                                     <div class="date-home">
@@ -739,7 +739,7 @@ export default function Page() {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b3.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b3.jpg" alt="img"></a>
                                 </div>
                                 <div class="blog-content2">                                    
                                     <div class="date-home">

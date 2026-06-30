@@ -12,7 +12,7 @@ export default function Page() {
         <main>
             
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -44,7 +44,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team01.png" alt="img">
+                                         <img src="/demo-5/img/team/team01.png" alt="img">
                                     </div>                                   
                                 </div>
                                 <div class="team-info">
@@ -64,7 +64,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team02.png" alt="img">
+                                        <img src="/demo-5/img/team/team02.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -84,7 +84,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team03.png" alt="img">
+                                        <img src="/demo-5/img/team/team03.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -104,7 +104,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team04.png" alt="img">
+                                         <img src="/demo-5/img/team/team04.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -124,7 +124,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team05.png" alt="img">
+                                        <img src="/demo-5/img/team/team05.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -144,7 +144,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team06.png" alt="img">
+                                        <img src="/demo-5/img/team/team06.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -164,7 +164,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team07.png" alt="img">
+                                        <img src="/demo-5/img/team/team07.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">
@@ -184,7 +184,7 @@ export default function Page() {
                             <div class="single-team mb-45">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team08.png" alt="img">
+                                        <img src="/demo-5/img/team/team08.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="team-info">

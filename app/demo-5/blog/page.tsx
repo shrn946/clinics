@@ -27,7 +27,7 @@ export default function Page() {
 		</div>
 		<!-- /search-popup -->
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png);">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -58,7 +58,7 @@ export default function Page() {
                         <div class="col-lg-8">
                             <div class="bsingle__post mb-50">
                                 <div class="bsingle__post-thumb">
-                                    <img src="img/blog/inner_b1.jpg" alt="">
+                                    <img src="/demo-5/img/blog/inner_b1.jpg" alt="">
                                 </div>
                                 <div class="bsingle__content">
                                     <div class="meta-info">
@@ -77,7 +77,7 @@ export default function Page() {
                             </div>
                             <div class="bsingle__post mb-50">
                                 <div class="bsingle__post-thumb video-p">
-                                    <img src="img/blog/inner_b2.jpg" alt="">
+                                    <img src="/demo-5/img/blog/inner_b2.jpg" alt="">
                                     <a href="https://www.youtube.com/watch?v=vKSA_idPZkc" class="video-i popup-video"><i class="fas fa-play"></i></a>
                                 </div>
                                 <div class="bsingle__content">
@@ -97,13 +97,13 @@ export default function Page() {
                             <div class="bsingle__post mb-50">
                                 <div class="bsingle__post-thumb blog-active">
                                     <div class="slide-post">
-                                        <img src="img/blog/inner_b3.jpg" alt="">
+                                        <img src="/demo-5/img/blog/inner_b3.jpg" alt="">
                                     </div>
                                     <div class="slide-post">
-                                        <img src="img/blog/inner_b2.jpg" alt="">
+                                        <img src="/demo-5/img/blog/inner_b2.jpg" alt="">
                                     </div>
                                     <div class="slide-post">
-                                        <img src="img/blog/inner_b1.jpg" alt="">
+                                        <img src="/demo-5/img/blog/inner_b1.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="bsingle__content">
@@ -154,7 +154,7 @@ export default function Page() {
                                 </div>
                             </div>
                             <div class="bsingle__post mb-50">
-                                <div class="bsingle__content quote-post" style="background-image:url(img/bg/quote_bg.png)">
+                                <div class="bsingle__content quote-post" style="background-image:url(/demo-5/img/bg/quote_bg.png)">
                                     <div class="meta-info">
                                         <ul>
                                             <li><i class="fal fa-user"></i>By Zcube</li>
@@ -162,7 +162,7 @@ export default function Page() {
                                         </ul>
                                     </div>
                                     <div class="quote-icon">
-                                        <img src="img/icon/blockquote.png" alt="">
+                                        <img src="/demo-5/img/icon/blockquote.png" alt="">
                                     </div>
                                     <h2><a href="blog-details.html">We denounce with of righteous one indignation and dislike men.</a></h2>
                                 </div>

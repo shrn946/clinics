@@ -27,7 +27,7 @@ export default function Page() {
 		</div>
 		<!-- /search-popup -->
             <!-- breadcrumb-area -->
-          <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png);">
+          <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -75,11 +75,11 @@ export default function Page() {
                                     </blockquote>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deser unt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant.</p>
                                     <div class="details__content-img">
-                                        <img src="img/blog/b_details01.jpg" alt="">
+                                        <img src="/demo-5/img/blog/b_details01.jpg" alt="">
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deser unt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archi tecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit asperna tur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non num quam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod incididunt.</p>
                                     <figure>
-                                        <img src="img/blog/b_details02.jpg" alt="">
+                                        <img src="/demo-5/img/blog/b_details02.jpg" alt="">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida tat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </figure>
                                     <div class="row">
@@ -105,7 +105,7 @@ export default function Page() {
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-md-2 text-left text-md-center">
-                                            <a href="blog.html" class="blog-filter"><img src="img/icon/c_d01.png" alt=""></a>
+                                            <a href="blog.html" class="blog-filter"><img src="/demo-5/img/icon/c_d01.png" alt=""></a>
                                         </div>
                                         <div class="col-xl-4 col-md-5">
                                             <div class="next-link text-left text-md-right">
@@ -123,7 +123,7 @@ export default function Page() {
                                         <div class="col-md-6">
                                             <div class="related-post-wrap mb-30">
                                                 <div class="post-thumb">
-                                                    <img src="img/blog/b_details03.jpg" alt="">
+                                                    <img src="/demo-5/img/blog/b_details03.jpg" alt="">
                                                 </div>
                                                 <div class="rp__content">
                                                     <h3><a href="#">Auis nostrud exercita ullamco laboris nisi ut</a></h3>
@@ -135,7 +135,7 @@ export default function Page() {
                                         <div class="col-md-6">
                                             <div class="related-post-wrap mb-30">
                                                 <div class="post-thumb">
-                                                    <img src="img/blog/b_details04.jpg" alt="">
+                                                    <img src="/demo-5/img/blog/b_details04.jpg" alt="">
                                                 </div>
                                                 <div class="rp__content">
                                                     <h3><a href="#">Excepteur sint occaecat cupida tat non proident</a></h3>
@@ -148,7 +148,7 @@ export default function Page() {
                                 </div>
                                 <div class="avatar__wrap text-center mb-45">
                                     <div class="avatar-img">
-                                        <img src="img/blog/comment/avatar.png" alt="">
+                                        <img src="/demo-5/img/blog/comment/avatar.png" alt="">
                                     </div>
                                     <div class="avatar__info">
                                         <h5>Rosalina William</h5>
@@ -172,7 +172,7 @@ export default function Page() {
                                     </div>
                                     <div class="single__comment mb-35">
                                         <div class="comments-avatar">
-                                            <img src="img/blog/comment/c_01.png" alt="">
+                                            <img src="/demo-5/img/blog/comment/c_01.png" alt="">
                                         </div>
                                         <div class="comment-text">
                                             <div class="avatar-name mb-15">
@@ -185,7 +185,7 @@ export default function Page() {
                                     </div>
                                     <div class="single__comment children mb-35">
                                         <div class="comments-avatar">
-                                            <img src="img/blog/comment/c_02.png" alt="">
+                                            <img src="/demo-5/img/blog/comment/c_02.png" alt="">
                                         </div>
                                         <div class="comment-text">
                                             <div class="avatar-name mb-15">
@@ -198,7 +198,7 @@ export default function Page() {
                                     </div>
                                     <div class="single__comment">
                                         <div class="comments-avatar">
-                                            <img src="img/blog/comment/c_03.png" alt="">
+                                            <img src="/demo-5/img/blog/comment/c_03.png" alt="">
                                         </div>
                                         <div class="comment-text">
                                             <div class="avatar-name mb-15">

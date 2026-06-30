@@ -27,7 +27,7 @@ export default function Page() {
 		</div>
 		<!-- /search-popup -->
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png);">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -96,10 +96,10 @@ export default function Page() {
                             <div class="two-column">
                                 <div class="row">
                                      <div class="image-column col-xl-6 col-lg-12 col-md-12">
-                                        <figure class="image"><img src="img/bg/hair-makeup2.jpg" alt=""></figure>
+                                        <figure class="image"><img src="/demo-5/img/bg/hair-makeup2.jpg" alt=""></figure>
                                     </div>
                                     <div class="text-column col-xl-6 col-lg-12 col-md-12">
-                                       <figure class="image"><img src="img/bg/hair-makeup3.jpg" alt=""></figure>
+                                       <figure class="image"><img src="/demo-5/img/bg/hair-makeup3.jpg" alt=""></figure>
                                     </div>
                                    
                                 </div>

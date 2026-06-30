@@ -11,7 +11,7 @@ export default function Page() {
         <!-- main-area -->
         <main>
        <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -43,7 +43,7 @@ export default function Page() {
                           <div class="pricing-box pricing-box2 text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon1.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon1.png" alt="img">
                                         </div>
                                         <h3>Basic Plan</h3>  
                                             <div class="price-count">
@@ -71,7 +71,7 @@ export default function Page() {
                              <div class="pricing-box pricing-box2 active text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon2.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon2.png" alt="img">
                                         </div>
                                         <h3>Standard Plan </h3>  
                                             <div class="price-count">
@@ -100,7 +100,7 @@ export default function Page() {
                              <div class="pricing-box pricing-box2 text-center mb-60">
                                     <div class="pricing-head">   
                                         <div class="icon">
-                                             <img src="img/icon/pr-icon3.png" alt="img">
+                                             <img src="/demo-5/img/icon/pr-icon3.png" alt="img">
                                         </div>
                                         <h3>Unlimited Plan</h3>  
                                             <div class="price-count">

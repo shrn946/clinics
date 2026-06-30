@@ -12,7 +12,7 @@ export default function Page() {
         <main>
             
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -42,7 +42,7 @@ export default function Page() {
                     <div class="row justify-content-center align-items-center">
                          <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <img src="img/features/about_img.png" alt="img">   
+                                <img src="/demo-5/img/features/about_img.png" alt="img">   
                                <div class="about-text second-about">
                                     <span>50</span>
                                     <p>Years of Experience</p>
@@ -70,12 +70,12 @@ export default function Page() {
             </section>
             <!-- about-area-end -->
              <!-- call-area -->
-            <div class="call-area" style="background-image:url(img/bg/call-bg.png); background-repeat: no-repeat; background-position: bottom;">
+            <div class="call-area" style="background-image:url(/demo-5/img/bg/call-bg.png); background-repeat: no-repeat; background-position: bottom;">
                 <div class="container">
                     <div class="row align-items-center">
                          <div class="col-lg-5 col-md-5 col-sm-12">
                              <div class="single-counter-img fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-								 <img src="img/bg/call-man.png" alt="img" class="img">
+								 <img src="/demo-5/img/bg/call-man.png" alt="img" class="img">
                             </div>
                         </div>
                       <div class="col-lg-7 col-md-7 col-sm-12">        
@@ -111,7 +111,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team01.png" alt="img">
+                                         <img src="/demo-5/img/team/team01.png" alt="img">
                                         
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team02.png" alt="img">
+                                        <img src="/demo-5/img/team/team02.png" alt="img">
                                     </div>                                     
                                 </div>
                                 <div class="team-info">
@@ -152,7 +152,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team03.png" alt="img">
+                                        <img src="/demo-5/img/team/team03.png" alt="img">
                                     </div>
                                     
                                 </div>
@@ -173,7 +173,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="img/team/team04.png" alt="img">
+                                         <img src="/demo-5/img/team/team04.png" alt="img">
                                     </div>
                                 
                                 </div>
@@ -194,7 +194,7 @@ export default function Page() {
                             <div class="single-team mb-40">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                        <img src="img/team/team03.png" alt="img">
+                                        <img src="/demo-5/img/team/team03.png" alt="img">
                                     </div>
                                     
                                 </div>
@@ -295,7 +295,7 @@ export default function Page() {
                         </div>
                          <div class="col-lg-6">
                             <div class="faq-img text-right">
-                                <img src="img/bg/faq-img.png" alt="img" class="img">
+                                <img src="/demo-5/img/bg/faq-img.png" alt="img" class="img">
                             </div>
                         </div>
                     </div>
@@ -321,7 +321,7 @@ export default function Page() {
                        <div class="col-lg-4 col-md-6">
                             <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b1.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b1.jpg" alt="img"></a>
                                 </div>                    
                                 <div class="blog-content2">    
                                     <div class="date-home">
@@ -337,7 +337,7 @@ export default function Page() {
                          <div class="col-lg-4 col-md-6">
                             <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b2.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b2.jpg" alt="img"></a>
                                 </div>
                                 <div class="blog-content2">                                    
                                     <div class="date-home">
@@ -352,7 +352,7 @@ export default function Page() {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="blog-thumb2">
-                                    <a href="blog-details.html"><img src="img/blog/inner_b3.jpg" alt="img"></a>
+                                    <a href="blog-details.html"><img src="/demo-5/img/blog/inner_b3.jpg" alt="img"></a>
                                 </div>
                                 <div class="blog-content2">                                    
                                     <div class="date-home">

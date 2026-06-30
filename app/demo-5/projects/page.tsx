@@ -12,7 +12,7 @@ export default function Page() {
         <main>
             
          <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -48,7 +48,7 @@ export default function Page() {
                             <div class="grid-item hover-zoomin banking">
                                  <a class="popup-image" href="img/gallery/protfolio-img02.png">
                                         <figure class="gallery-image">
-                                          <img src="img/gallery/protfolio-img02.png" alt="img" class="img">      
+                                          <img src="/demo-5/img/gallery/protfolio-img02.png" alt="img" class="img">      
                                         </figure>
                                     </a>
 
@@ -57,7 +57,7 @@ export default function Page() {
                              <div class="grid-item hover-zoomin financial">
                                <a class="popup-image" href="img/gallery/protfolio-img03.png">
                                         <figure class="gallery-image">
-                                          <img src="img/gallery/protfolio-img03.png" alt="img" class="img">      
+                                          <img src="/demo-5/img/gallery/protfolio-img03.png" alt="img" class="img">      
                                         </figure>
                                     </a>
 
@@ -65,7 +65,7 @@ export default function Page() {
                             <div class="grid-item hover-zoomin financial">   
                                 <a class="popup-image" href="img/gallery/protfolio-img01.png">
                                     <figure class="gallery-image">
-                                      <img src="img/gallery/protfolio-img01.png" alt="img" class="img">   
+                                      <img src="/demo-5/img/gallery/protfolio-img01.png" alt="img" class="img">   
                                     </figure>
                                 </a>
 
@@ -73,21 +73,21 @@ export default function Page() {
                             <div class="grid-item hover-zoomin insurance">
                                    <a class="popup-image" href="img/gallery/protfolio-img06.png">
                                         <figure class="gallery-image">
-                                          <img src="img/gallery/protfolio-img06.png" alt="img" class="img">  
+                                          <img src="/demo-5/img/gallery/protfolio-img06.png" alt="img" class="img">  
                                         </figure>
                                     </a>
                             </div> 
                                 <div class="grid-item hover-zoomin banking insurance">    
                                    <a class="popup-image" href="img/gallery/protfolio-img04.png">
                                         <figure class="gallery-image">
-                                          <img src="img/gallery/protfolio-img04.png" alt="img" class="img">    
+                                          <img src="/demo-5/img/gallery/protfolio-img04.png" alt="img" class="img">    
                                         </figure>
                                     </a>
                             </div>
                             <div class="grid-item hover-zoomin financial">
                             <a class="popup-image" href="img/gallery/protfolio-img05.png">
                                         <figure class="gallery-image">
-                                          <img src="img/gallery/protfolio-img05.png" alt="img" class="img">      
+                                          <img src="/demo-5/img/gallery/protfolio-img05.png" alt="img" class="img">      
                                         </figure>
                                     </a>
 

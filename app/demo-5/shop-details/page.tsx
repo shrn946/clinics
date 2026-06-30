@@ -12,7 +12,7 @@ export default function Page() {
         <main>
             
            <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -45,13 +45,13 @@ export default function Page() {
                         <div class="shop-thumb-tab mb-30">
                             <ul class="nav" id="myTab2" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-selected="true"><img src="img/shop/details/thumb1.jpg" alt=""> </a>
+                                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-selected="true"><img src="/demo-5/img/shop/details/thumb1.jpg" alt=""> </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-selected="false"><img src="img/shop/details/thumb2.jpg" alt=""></a>
+                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-selected="false"><img src="/demo-5/img/shop/details/thumb2.jpg" alt=""></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab2" data-bs-toggle="tab" href="#profile1" role="tab" aria-selected="false"><img src="img/shop/details/thumb3.jpg" alt=""></a>
+                                    <a class="nav-link" id="profile-tab2" data-bs-toggle="tab" href="#profile1" role="tab" aria-selected="false"><img src="/demo-5/img/shop/details/thumb3.jpg" alt=""></a>
                                 </li>
                             </ul>
                         </div>
@@ -59,17 +59,17 @@ export default function Page() {
                             <div class="tab-content" id="myTabContent2">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel">
                                     <div class="product-large-img">
-                                        <img src="img/shop/details/large1.jpg" alt="">
+                                        <img src="/demo-5/img/shop/details/large1.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel">
                                     <div class="product-large-img">
-                                        <img src="img/shop/details/large2.jpg" alt="">
+                                        <img src="/demo-5/img/shop/details/large2.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="profile1" role="tabpanel">
                                     <div class="product-large-img">
-                                        <img src="img/shop/details/large3.jpg" alt="">
+                                        <img src="/demo-5/img/shop/details/large3.jpg" alt="">
                                     </div>
                                 </div>
                             </div>

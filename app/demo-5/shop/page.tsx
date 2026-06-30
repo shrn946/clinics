@@ -12,7 +12,7 @@ export default function Page() {
         <main>
             
       <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -59,7 +59,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img4.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img4.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -79,7 +79,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img5.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img5.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -99,7 +99,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img6.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img6.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -119,7 +119,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img7.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img7.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -139,7 +139,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img8.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img8.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -159,7 +159,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img9.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img9.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -179,7 +179,7 @@ export default function Page() {
 									<div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img1.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img1.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -199,7 +199,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img2.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img2.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>
@@ -219,7 +219,7 @@ export default function Page() {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="product mb-40">
                                             <div class="product__img">
-                                                <a href="shop-details.html"><img src="img/shop/img3.jpg" alt=""></a>
+                                                <a href="shop-details.html"><img src="/demo-5/img/shop/img3.jpg" alt=""></a>
                                                 <div class="product-action text-center">
                                                    
                                                     <a href="shop-details.html">Add Cart</a>

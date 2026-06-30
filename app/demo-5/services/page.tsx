@@ -27,7 +27,7 @@ export default function Page() {
 		</div>
 		<!-- /search-popup -->
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(img/bg/bdrc-bg.png);">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(/demo-5/img/bg/bdrc-bg.png);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -59,7 +59,7 @@ export default function Page() {
                             <div class="about-content s-about-content">                          
                                 <ul class="sr-tw-ul">
                                     <li>
-                                      <div class="icon"><img src="img/icon/fe-icon01.png" alt="icon01"></div>
+                                      <div class="icon"><img src="/demo-5/img/icon/fe-icon01.png" alt="icon01"></div>
                                         <div class="text">
                                           <h4>Root Canal</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -72,7 +72,7 @@ export default function Page() {
                             <div class="about-content s-about-content">
                                 <ul class="sr-tw-ul">
                                     <li>
-                                        <div class="icon"><img src="img/icon/fe-icon05.png" alt="icon01"></div>
+                                        <div class="icon"><img src="/demo-5/img/icon/fe-icon05.png" alt="icon01"></div>
                                         <div class="text">
                                           <h4>Alignment Teeth</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -85,7 +85,7 @@ export default function Page() {
                             <div class="about-content s-about-content">
                                 <ul class="sr-tw-ul">
                                      <li>
-                                       <div class="icon"><img src="img/icon/fe-icon07.png" alt="icon01"></div>
+                                       <div class="icon"><img src="/demo-5/img/icon/fe-icon07.png" alt="icon01"></div>
                                         <div class="text">
                                            <h4>Cosmetic Teeth</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -99,7 +99,7 @@ export default function Page() {
                             <div class="about-content s-about-content">
                                  <ul class="sr-tw-ul">
                                     <li>
-                                        <div class="icon"><img src="img/icon/fe-icon04.png" alt="icon01"></div>
+                                        <div class="icon"><img src="/demo-5/img/icon/fe-icon04.png" alt="icon01"></div>
                                          <div class="text pt-10">
                                            <h4>Oral Hygiene</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -112,7 +112,7 @@ export default function Page() {
                             <div class="about-content s-about-content">
                                  <ul class="sr-tw-ul">
                                     <li>
-                                         <div class="icon"><img src="img/icon/fe-icon06.png" alt="icon01"></div>
+                                         <div class="icon"><img src="/demo-5/img/icon/fe-icon06.png" alt="icon01"></div>
                                          <div class="text pt-10">
                                            <h4>Live Advisory</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -125,7 +125,7 @@ export default function Page() {
                             <div class="about-content s-about-content">
                                  <ul class="sr-tw-ul">
                                      <li>
-                                         <div class="icon"><img src="img/icon/fe-icon08.png" alt="icon01"></div>
+                                         <div class="icon"><img src="/demo-5/img/icon/fe-icon08.png" alt="icon01"></div>
                                          <div class="text pt-10">
                                            <h4>Cavity Inspection</h4> 
                                             <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
@@ -204,86 +204,86 @@ export default function Page() {
                             <div class="testimonial-active">
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Margie Dose</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                     <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                               <div class="single-testimonial">
                                   <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                 <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                 <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Dose Robot</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                    <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                      <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar_02.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar_02.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                     <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                    <div class="ta-info">
                                            <h6>Margie Dose</h6>
                                             <span>Web Developer</span>
                                         </div>
                                     <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="single-testimonial">
                                     <div class="testi-author">
-                                        <img src="img/testimonial/testi_avatar.png" alt="img">
+                                        <img src="/demo-5/img/testimonial/testi_avatar.png" alt="img">
                                     </div>
-                                    <div class="review mb-30"><img src="img/testimonial/review-icon.png" alt="img"></div>
+                                    <div class="review mb-30"><img src="/demo-5/img/testimonial/review-icon.png" alt="img"></div>
                                   <p>“Morbi neque nisi, tincidunt nec erat vitae, viverra porttitor lorem. Fusce tempor nunc at luctus blandit. Donec eget fermentum magna.we dedicate financial on services the teams serve all Curabitur ac tortor ante. Sed quis dignissim”</p>
                                     <div class="ta-info">
                                             <h6>Jone Walker</h6>
                                             <span>Web Designer</span>
                                         </div>
                                      <div class="qt-img">
-                                    <img src="img/testimonial/qt-icon.png" alt="img">
+                                    <img src="/demo-5/img/testimonial/qt-icon.png" alt="img">
                                     </div>
                                 </div>
                             </div>

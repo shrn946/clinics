@@ -138,7 +138,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>
 <div class="theme-element theme-element-237a702 theme-widget__width-auto theme-widget theme-widget-heading" data-e-type="widget" data-element_type="widget" data-id="237a702" data-widget_type="heading.default">
 <div class="theme-widget-container">
-<div class="theme-heading-title theme-size-default"><a href="https://templateup.site/dental">Dental</a></div> </div>
+<div class="theme-heading-title theme-size-default"><a href="/demo-6">Dental</a></div> </div>
 </div>
 </div>
 <div class="theme-element theme-element-79c3dbf6 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="79c3dbf6">

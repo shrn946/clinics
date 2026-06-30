@@ -80,6 +80,9 @@ def clean_text(text):
     text = text.replace('https://templateup.site/dental/wp-content/', '/demo-6/assets/')
     text = text.replace('https://templateup.site/dental/assets/', '/demo-6/assets/')
     
+    text = text.replace('href="https://templateup.site/dental"', 'href="/demo-6"')
+    text = text.replace('href="https://templateup.site/dental/"', 'href="/demo-6"')
+    
     text = text.replace('elementor-invisible', '')
     text = text.replace('theme-invisible', '')
     text = text.replace('elementor-hidden', '')

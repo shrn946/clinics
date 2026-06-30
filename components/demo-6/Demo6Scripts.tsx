@@ -3,49 +3,56 @@ import { useEffect } from 'react';
 
 export default function Demo6Scripts() {
   useEffect(() => {
-    // Progress Bar Animation
-    const animateProgressBars = () => {
-      const progressBars = document.querySelectorAll('.theme-progress-bar');
-      progressBars.forEach((bar) => {
-        const progress = bar.getAttribute('data-max') || '100';
-        // Add a small delay for the animation to be visible
-        setTimeout(() => {
-          (bar as HTMLElement).style.width = `${progress}%`;
-        }, 100);
-      });
-      
-      // Also check The Plus Addons progress bars if any
-      const ptbProgressBars = document.querySelectorAll('.ptb-progress-bar-filled, .progress_bar-skill-bar-filled');
-      ptbProgressBars.forEach((bar) => {
-        const progress = bar.parentElement?.getAttribute('data-percent-value') || '100';
-        setTimeout(() => {
-          (bar as HTMLElement).style.width = `${progress}%`;
-        }, 100);
-      });
-    };
-
-    // Use Intersection Observer to animate only when scrolled into view
+    // Use Intersection Observer to animate elements when scrolled into view
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          animateProgressBars();
-          observer.unobserve(entry.target);
+          const target = entry.target as HTMLElement;
+          
+          // Progress Bars
+          if (target.classList.contains('theme-widget-progress') || target.classList.contains('plus-progress-bar')) {
+            const bars = target.querySelectorAll('.theme-progress-bar, .ptb-progress-bar-filled, .progress_bar-skill-bar-filled');
+            bars.forEach((bar) => {
+              const b = bar as HTMLElement;
+              const progress = b.getAttribute('data-max') || b.parentElement?.getAttribute('data-percent-value') || '100';
+              setTimeout(() => {
+                b.style.width = `${progress}%`;
+              }, 100);
+            });
+            observer.unobserve(target);
+          }
+          
+          // Animations (theme-invisible)
+          if (target.classList.contains('theme-invisible')) {
+             try {
+               const settingsStr = target.getAttribute('data-settings');
+               if (settingsStr) {
+                 const settings = JSON.parse(settingsStr);
+                 const animationName = settings.animation || settings._animation;
+                 if (animationName) {
+                   target.classList.remove('theme-invisible');
+                   target.classList.add('animated', animationName);
+                   const delay = settings.animation_delay || settings._animation_delay;
+                   if (delay) {
+                     target.style.animationDelay = `${delay}ms`;
+                   }
+                 } else {
+                   target.classList.remove('theme-invisible');
+                 }
+               } else {
+                 target.classList.remove('theme-invisible');
+               }
+             } catch (e) {
+               target.classList.remove('theme-invisible');
+             }
+             observer.unobserve(target);
+          }
         }
       });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.1 });
 
-    const progressWrappers = document.querySelectorAll('.theme-widget-progress, .plus-progress-bar');
-    progressWrappers.forEach(wrapper => {
-      observer.observe(wrapper);
-    });
-    
-    // In case no observer targets were found, fallback
-    if (progressWrappers.length === 0) {
-      animateProgressBars();
-    }
-    
-    // Fix mobile menu / icons if they were dependent on JS
-    // Some themes use FontAwesome JS which we removed, so ensure standard FontAwesome is initialized
+    const animatedElements = document.querySelectorAll('.theme-invisible, .theme-widget-progress, .plus-progress-bar');
+    animatedElements.forEach(el => observer.observe(el));
     
     return () => observer.disconnect();
   }, []);

@@ -141,14 +141,6 @@ for link in soup.find('head').find_all('link'):
             link_str = link_str.replace('/>', f'id="{link_id}" />')
         css_links.append(link_str)
 
-js_links = []
-for script in soup.find('body').find_all('script'):
-    if script.get('src'):
-        src = clean_text(script.get('src', ''))
-        if src.startswith('assets/'):
-            src = '/demo-6/' + src
-        js_links.append(src)
-
 layout_tsx = f"""
 export default function Demo6Layout({{ children }}: {{ children: React.ReactNode }}) {{
   return (
@@ -166,40 +158,6 @@ export default function Demo6Layout({{ children }}: {{ children: React.ReactNode
 with open(os.path.join(APP_DIR, 'layout.tsx'), 'w', encoding='utf-8') as f:
     f.write(layout_tsx)
 
-script_loader_tsx = f"""
-'use client';
-import {{ useEffect }} from 'react';
-
-export default function Demo6ScriptLoader() {{
-  useEffect(() => {{
-    const loadScript = (src: string) => {{
-      return new Promise<void>((resolve) => {{
-        const script = document.createElement('script');
-        script.src = src;
-        script.onload = () => resolve();
-        script.onerror = () => resolve();
-        document.body.appendChild(script);
-      }});
-    }};
-
-    const initScripts = async () => {{
-      if (typeof window !== 'undefined') {{
-        const scripts = {json.dumps(js_links)};
-        for (const src of scripts) {{
-          await loadScript(src);
-        }}
-      }}
-    }};
-    
-    initScripts();
-  }}, []);
-
-  return null;
-}}
-"""
-with open(os.path.join(COMP_DIR, 'Demo6ScriptLoader.tsx'), 'w', encoding='utf-8') as f:
-    f.write(script_loader_tsx)
-
 print("Processing HTML pages...")
 for src_file, route in PAGES.items():
     full_src = os.path.join(SOURCE_DIR, src_file)
@@ -214,24 +172,43 @@ for src_file, route in PAGES.items():
     soup = BeautifulSoup(html, 'html.parser')
     
     body = soup.find('body')
+    
+    # Extract body classes
+    body_classes = " ".join(body.get('class', []))
+    body_classes = clean_text(body_classes)
+    
     for script in body.find_all('script'):
         script.decompose()
         
-    # We also remove SVG that acts as WP's weird injected icon pack unless it's used
-    
+    # Fix lazy loaded images by swapping data-src to src
+    for img in body.find_all('img'):
+        if img.has_attr('data-src'):
+            img['src'] = img['data-src']
+            del img['data-src']
+        classes = img.get('class', [])
+        if 'lazyload' in classes:
+            classes.remove('lazyload')
+            img['class'] = classes
+            
     body_html = "".join([str(x) for x in body.contents])
+    body_html = body_html.replace('`', '\\`').replace('$', '\\$')
+    
+    # Extract inline <style> tags from <head> for this specific page
+    inline_styles_html = ""
+    for style in soup.find('head').find_all('style'):
+        style_text = clean_text(style.string or "")
+        inline_styles_html += f"\n      <style dangerouslySetInnerHTML={{{{ __html: `{style_text.replace('`', '\\`').replace('$', '\\$')}` }}}} />"
     
     page_tsx = f"""
-import Demo6ScriptLoader from '@/components/demo-6/Demo6ScriptLoader';
 import Chatbot from '@/components/Chatbot';
 
 export default function Page() {{
   return (
-    <>
-      <div dangerouslySetInnerHTML={{{{ __html: `{body_html.replace('`', '\\`').replace('$', '\\$')}` }}}} />
+    <div className="{body_classes}">
+      {inline_styles_html}
+      <div dangerouslySetInnerHTML={{{{ __html: `{body_html}` }}}} />
       <Chatbot themeColor="#00bcd4" />
-      <Demo6ScriptLoader />
-    </>
+    </div>
   );
 }}
 """

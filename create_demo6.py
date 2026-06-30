@@ -77,10 +77,13 @@ def clean_text(text):
     text = text.replace('url(../wp-', 'url(/demo-6/assets/')
     text = text.replace('url(wp-', 'url(/demo-6/assets/')
     
+    text = text.replace('https://templateup.site/dental/wp-content/', '/demo-6/assets/')
+    text = text.replace('https://templateup.site/dental/assets/', '/demo-6/assets/')
+    
     text = text.replace('elementor-invisible', '')
     
-    # Remove wp-* classes safely
-    text = re.sub(r'\bwp-\w+\b', '', text)
+    # Remove wp-* classes safely (but don't break valid paths)
+    text = re.sub(r'class="([^"]*)\bwp-\w+\b([^"]*)"', r'class="\1 \2"', text)
     
     # Update links
     for old, new in PAGES.items():

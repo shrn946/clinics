@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Demo5ScriptLoader from '@/components/demo-5/Demo5ScriptLoader';
 import Chatbot from '@/components/Chatbot';
+import Preloader from '@/components/demo-5/Preloader';
 
 export const metadata: Metadata = {
   title: 'PrimeCare | Premium Dental Services',
@@ -23,6 +24,7 @@ export default function Demo5Layout({ children }: { children: React.ReactNode })
         <link rel="stylesheet" href="/demo-5/css/responsive.css" />
       </head>
       <body>
+        <Preloader />
         {children}
         <Chatbot />
         <Demo5ScriptLoader />

@@ -139,7 +139,7 @@ export default function HeaderTwo() {
                         </ul>
                     </div>
                     <div class="btns-box">
-                        <a class="btn-one style2" href="#">
+                        <a class="btn-one style2" href="/eye-1/appointment">
                             <span class="txt">Book Appointment<i class="fa fa-angle-double-right round" aria-hidden="true"></i></span>
                         </a>
                     </div>

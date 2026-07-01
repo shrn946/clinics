@@ -8039,3 +8039,49 @@ a, button, .btn-one, .btn-style3, .readmore {
     color: #64748b !important;
 }
 
+/* Breadcrumb Overlay & Text Overrides */
+.breadcrumb-area {
+    position: relative;
+    z-index: 10;
+}
+
+.breadcrumb-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 15, 39, 0.5) !important; /* Premium semi-transparent dark blue overlay */
+    z-index: 1;
+}
+
+.breadcrumb-area .container {
+    position: relative;
+    z-index: 5 !important;
+}
+
+.breadcrumb-area .layer-outer-icon {
+    z-index: 2 !important;
+}
+
+.breadcrumb-menu ul li {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.breadcrumb-menu ul li:before {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.breadcrumb-menu ul li a {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.breadcrumb-menu ul li a:hover {
+    color: #ffffff !important;
+}
+
+.breadcrumb-menu ul li.active {
+    color: #3b82f6 !important; /* Accent blue for active breadcrumb item */
+}
+

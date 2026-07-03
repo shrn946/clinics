@@ -56,10 +56,10 @@ export default function ScriptLoader() {
   const pathname = usePathname();
   useEffect(() => {
     // Re-initialize scripts on route change if they exist
-    if (typeof window !== 'undefined' && window.jQuery) {
+    if (typeof window !== 'undefined' && (window as any).jQuery) {
       setTimeout(() => {
-        if (window.jQuery.fn.tThrowable) {
-          window.jQuery("[data-t-throwable-scene]").tThrowable();
+        if ((window as any).jQuery.fn.tThrowable) {
+          (window as any).jQuery("[data-t-throwable-scene]").tThrowable();
         }
       }, 500);
     }

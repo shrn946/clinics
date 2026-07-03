@@ -68,6 +68,17 @@ if os.path.exists(footer_path):
     # Fix inline css url
     footer_content = footer_content.replace("url('assets/", "url('/demo-8/assets/")
     
+    # Add spacing requested by user
+    footer_content = footer_content.replace(
+        '<footer suppressHydrationWarning className="footer-section">',
+        '<footer suppressHydrationWarning className="footer-section" style={{ paddingBottom: "12px", marginTop: "80px" }}>'
+    )
+    # Also handle if suppressHydrationWarning is not there yet
+    footer_content = footer_content.replace(
+        '<footer className="footer-section">',
+        '<footer suppressHydrationWarning className="footer-section" style={{ paddingBottom: "12px", marginTop: "80px" }}>'
+    )
+    
     with open(footer_path, 'w', encoding='utf-8') as f:
         f.write(footer_content)
 

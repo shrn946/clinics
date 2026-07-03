@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <>
-      <footer suppressHydrationWarning className="footer-section">
+      <footer suppressHydrationWarning className="footer-section" style={{ paddingBottom: "12px", marginTop: "80px" }}>
 <div className="footer-area bg-cover fix" style={{ backgroundImage: "url('/demo-8/assets/img/home-1/footer-bg.jpg')" }}>
 <div className="footer-widget-wrapper">
 <div className="container">

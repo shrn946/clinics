@@ -82,6 +82,31 @@ if os.path.exists(footer_path):
     with open(footer_path, 'w', encoding='utf-8') as f:
         f.write(footer_content)
 
+    # Inject use client and usePathname
+    with open(header_path, 'r', encoding='utf-8') as f:
+        header_content = f.read()
+    if '"use client";' not in header_content:
+        header_content = '"use client";\n' + header_content
+        header_content = header_content.replace(
+            "import Link from 'next/link';",
+            "import Link from 'next/link';\nimport { usePathname } from 'next/navigation';"
+        )
+        header_content = header_content.replace(
+            "export default function Header() {",
+            "export default function Header() {\n  const pathname = usePathname();\n  const isInnerPage = pathname !== '/demo-8' && pathname !== '/demo-8/';\n"
+        )
+        header_content = header_content.replace(
+            '<header suppressHydrationWarning className="header-section header-1 header-3"',
+            '<header suppressHydrationWarning className={`header-section header-1 header-3 ${isInnerPage ? "header-inner-page" : ""}`}'
+        )
+        header_content = header_content.replace(
+            '<header className="header-section header-1 header-3"',
+            '<header className={`header-section header-1 header-3 ${isInnerPage ? "header-inner-page" : ""}`}'
+        )
+    
+    with open(header_path, 'w', encoding='utf-8') as f:
+        f.write(header_content)
+
 fix_component(header_path)
 fix_component(footer_path)
 print("Fixed Header and Footer")

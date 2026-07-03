@@ -1,11 +1,16 @@
+"use client";
 
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+  const pathname = usePathname();
+  const isInnerPage = pathname !== '/demo-8' && pathname !== '/demo-8/';
+
   return (
     <>
-      <header suppressHydrationWarning className="header-section header-1 header-3" id="sticky-header">
+      <header className={`header-section header-1 header-3 ${isInnerPage ? "header-inner-page" : ""}`} id="sticky-header">
 <div className="header-main">
 {/* ===================== DESKTOP NAVBAR ===================== */}
 <nav className="navbar p-0 navbar-expand-xl d-none d-xl-flex">

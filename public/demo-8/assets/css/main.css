@@ -11466,3 +11466,15 @@ img {
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.02em;
 }
+
+/* Inner Page Header Skin */
+.header-inner-page {
+    position: relative;
+    z-index: 99;
+    top: 0;
+}
+.header-inner-page .header-main {
+    background-color: var(--header, #0f172a) !important;
+    border-radius: 0 !important;
+    backdrop-filter: none !important;
+}

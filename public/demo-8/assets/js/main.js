@@ -430,10 +430,7 @@
         spaceBetween: 30,
         speed: 1300,
         loop: true,
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
+        autoplay: false,
         navigation: {
             nextEl: ".array-next",
             prevEl: ".array-prev",

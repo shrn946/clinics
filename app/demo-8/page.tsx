@@ -32,367 +32,167 @@ export default function Page() {
 `}} />
       <div dangerouslySetInnerHTML={{__html: `
 <!-- Hero Section Start -->
-<section class="hero-section-3 fix position-relative">
-<div class="hero-3">
-<div class="swiper hero-slider-1">
-<div class="swiper-wrapper">
-<div class="swiper-slide">
-<div class="hero-slider-items">
-<div class="item-img position-absolute">
-<img alt="img" src="/demo-8/assets/img/home-3/hero-bg-1.jpg"/>
+<section class="hero-section hero-2 bg-cover" style="background-image: url('/demo-8/assets/img/home-2/hero-bg.jpg');">
+<div class="container">
+<div class="hero-items">
+<div class="row g-4 align-items-center">
+<div class="col-xl-9 col-lg-7">
+<div class="ratting-image wow fadeInUp" data-wow-delay=".3s">
+<img alt="img" src="/demo-8/assets/img/home-2/hero-ratting.png"/>
 </div>
-<div class="container">
-<div class="container">
-<div class="row">
-<div class="col-xl-7">
-<div class="hero-content">
-<span class="hero-sub">Enhance Your Natural Beauty</span>
-<h1 class="hero-title hero-title tz-split-1 hero_title">
-                                                                    Advanced <b>&amp; <br/> Personalized</b> Plastic <br/> Surgery Solutions
-                                                                </h1>
-<p class="hero-text">
-                                                                    Expert dental care for the whole family, combining advanced technology with a gentle touch.
-                                                                </p>
-<div class="hero-button">
-<a class="theme-btn-main style-2" href="/demo-8/service">
+<h1 class="wa_title_spilt_1">
+                                        Enhance Your <span>Natural Beauty</span> With Medixen Clinic Experts
+                                    </h1>
+</div>
+<div class="col-xl-3 col-lg-5">
+<div class="content wow fadeInUp" data-wow-delay=".3s">
+<p>
+                                            Advanced plastic surgery solutions tailored to your unique goals. Safe, modern, and result-driven treatments.
+                                        </p>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/contact">
 <span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">our service</span>
+<span class="theme-btn">Get In Touch</span>
 <span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
-<span class="button-text">
-<a class="video-btn video-popup" href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I">
-<i class="fa-solid fa-play"></i>
-</a>
-<span class="ms-4 d-line">Watch Video</span>
-</span>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="hero-icon-wrap">
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon1.png"/>
+<div class="marque-section">
+<div class="marquee">
+<div class="marquee-group">
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
 </div>
-<div class="content">
-<h2 class="title">
-                                                                Facial Surgery <br/> (Rhinoplasty, Facelift)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
+<div class="marquee-group">
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
 </div>
+<div class="marquee-group">
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
+                                </div>
+<div class="text">
+<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
+                                </div>
 </div>
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon2.png"/>
-</div>
-<div class="content">
-<h2 class="title">
-                                                            Non-Surgical Treatments <br/> (Botox, Fillers)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="swiper-slide">
-<div class="hero-slider-items">
-<div class="item-img position-absolute">
-<img alt="img" src="/demo-8/assets/img/home-3/hero-bg-2.jpg"/>
-</div>
-<div class="container">
-<div class="container">
-<div class="row">
-<div class="col-xl-7">
-<div class="hero-content">
-<span class="hero-sub">Enhance Your Natural Beauty</span>
-<h1 class="hero-title hero-title tz-split-1 hero_title">
-                                                                    Advanced <b>&amp; <br/> Personalized</b> Plastic <br/> Surgery Solutions
-                                                                </h1>
-<p class="hero-text">
-                                                                    Expert dental care for the whole family, combining advanced technology with a gentle touch.
-                                                                </p>
-<div class="hero-button">
-<a class="theme-btn-main style-2" href="/demo-8/service">
-<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">our service</span>
-<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-</a>
-<span class="button-text">
-<a class="video-btn video-popup" href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I">
-<i class="fa-solid fa-play"></i>
-</a>
-<span class="ms-4 d-line">Watch Video</span>
-</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hero-icon-wrap">
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon1.png"/>
-</div>
-<div class="content">
-<h2 class="title">
-                                                                Facial Surgery <br/> (Rhinoplasty, Facelift)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
-</div>
-</div>
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon2.png"/>
-</div>
-<div class="content">
-<h2 class="title">
-                                                            Non-Surgical Treatments <br/> (Botox, Fillers)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="swiper-slide">
-<div class="hero-slider-items">
-<div class="item-img position-absolute">
-<img alt="img" src="/demo-8/assets/img/home-3/hero-bg-3.jpg"/>
-</div>
-<div class="container">
-<div class="container">
-<div class="row">
-<div class="col-xl-7">
-<div class="hero-content">
-<span class="hero-sub">Enhance Your Natural Beauty</span>
-<h1 class="hero-title hero-title tz-split-1 hero_title">
-                                                                    Advanced <b>&amp; <br/> Personalized</b> Plastic <br/> Surgery Solutions
-                                                                </h1>
-<p class="hero-text">
-                                                                    Expert dental care for the whole family, combining advanced technology with a gentle touch.
-                                                                </p>
-<div class="hero-button">
-<a class="theme-btn-main style-2" href="/demo-8/service">
-<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">our service</span>
-<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-</a>
-<span class="button-text">
-<a class="video-btn video-popup" href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I">
-<i class="fa-solid fa-play"></i>
-</a>
-<span class="ms-4 d-line">Watch Video</span>
-</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hero-icon-wrap">
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon1.png"/>
-</div>
-<div class="content">
-<h2 class="title">
-                                                                Facial Surgery <br/> (Rhinoplasty, Facelift)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
-</div>
-</div>
-<div class="icon-box">
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon2.png"/>
-</div>
-<div class="content">
-<h2 class="title">
-                                                            Non-Surgical Treatments <br/> (Botox, Fillers)
-                                                            </h2>
-<a class="icon" href="/demo-8/about">
-<i class="fas fa-angle-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="array-button">
-<button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-<button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
 </div>
 </div>
 </section>
-<!-- Brand Section Start -->
-<div class="brand-section-three">
-<div class="container">
-<div class="marquee">
-<div class="marquee-group">
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand1.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand2.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand3.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand4.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand5.png"/>
-</div>
-</div>
-<div class="marquee-group">
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand1.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand2.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand3.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand4.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand5.png"/>
-</div>
-</div>
-<div class="marquee-group">
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand1.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand2.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand3.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand4.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand5.png"/>
-</div>
-</div>
-<div class="marquee-group">
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand1.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand2.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand3.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand4.png"/>
-</div>
-<div class="brand-img-3">
-<img alt="img" src="/demo-8/assets/img/home-3/brand5.png"/>
-</div>
-</div>
-</div>
-</div>
-</div>
 <!-- About Section Start -->
-<section class="about-section-three fix section-padding">
-<div class="about-wrapper-3">
-<div class="row g-4 align-items-center">
-<div class="col-lg-6">
-<div class="about-image-items">
+<section class="about-section-2 section-padding">
+<div class="container">
+<div class="about-wrapper-2">
 <div class="row g-4">
-<div class="col-lg-6 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
-<div class="thumb fix">
-<img alt="img" data-speed=".8" src="/demo-8/assets/img/home-3/about-image.jpg"/>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-6">
-<div class="thumb fix wow fadeInUp" data-wow-delay=".5s">
-<img alt="img" data-speed=".8" src="/demo-8/assets/img/home-3/about-image2.jpg"/>
-</div>
-</div>
-</div>
-<div class="icon-box">
-<div class="text-circle">
-<img alt="img" src="/demo-8/assets/img/home-3/text-circle.png"/>
-</div>
-<div class="icon">
-<img alt="img" src="/demo-8/assets/img/home-3/icon-3.png"/>
-</div>
-</div>
+<div class="col-lg-6">
+<div class="about-image wow fadeInUp">
+<img alt="img" src="/demo-8/assets/img/home-2/about-image.png"/>
 </div>
 </div>
 <div class="col-lg-6">
 <div class="about-content">
 <div class="section-title mb-0">
 <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> About Our Clinic
-                                            </span>
-<h2 class="split-title">
-<span class="style-font">Dedicated to Your</span> Beauty <br/> &amp; Confidence</h2>
+<img alt="img" src="/demo-8/assets/img/star.png"/> About us
+                                                </span>
+<h2 class="wa_title_spilt_1">
+<span class="style-font">Crafting Powerful </span> Brands Through Creativity
+                                                </h2>
 </div>
-<p class="about-text wow fadeInUp" data-wow-delay=".3s">
-                                            Lorem ipsum dolor sit amet consecteitur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit a sapien fringilla, mattis ligula consectietur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet.
-                                        </p>
-<div class="about-counter-item wow fadeInUp" data-wow-delay=".5s">
-<div class="counter-item">
-<h3>
-<span class="count">75</span>%
-                                                </h3>
-<p>
-                                                    Pediatric <br class="d-block"/> Dentistry
-                                                </p>
-</div>
-<div class="about-line"></div>
-<div class="counter-item">
-<h3>
-<span class="count">85</span>%
-                                                </h3>
-<p>
-                                                   Gum Disease
-                                                </p>
-</div>
-<div class="about-line"></div>
-<div class="counter-item">
-<h3>
-<span class="count">95</span>%
-                                                </h3>
-<p>
-                                                    Orthodontics <br class="d-block"/> Patients
-                                                </p>
-</div>
-</div>
-<div class="about-button wow fadeInUp" data-wow-delay=".7s">
-<a class="theme-btn-main style-2" href="/demo-8/about">
+<p class="text wow fadeInUp" data-wow-delay=".3s">
+                                                We help ambitious brands break boundaries with bold design and smart strategies. Our creative team is driven by innovation and fueled by passion, delivering solutions that capture attention and drive growth. Whether you're a startup or an established business, we bring your vision to life.
+                                            </p>
+<a class="theme-btn-main style-2 bg-white-style wow fadeInUp" data-wow-delay=".5s" href="/demo-8/about">
 <span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">Know More</span>
+<span class="theme-btn">Know more us</span>
 <span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
-<div class="author-image">
-<img alt="author-img" src="/demo-8/assets/img/home-3/author.png"/>
-<div class="content">
-<h4>Ronald Richards</h4>
-<p>Co, Founder</p>
+<div class="about-counter-items">
+<div class="content wow fadeInUp" data-wow-delay=".3s">
+<h2>
+<span class="count">10</span><span class="plus">+</span>
+</h2>
+<p>
+                                                        Trusted Experience Built on <br class="d-block"/> Successful Projects.
+                                                    </p>
+</div>
+<div class="about-small wow fadeInUp" data-wow-delay=".5s">
+<img alt="img" src="/demo-8/assets/img/home-2/about-small.jpg"/>
+<a class="video-btn video-popup" href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I">
+<i class="fa-solid fa-play"></i>
+</a>
 </div>
 </div>
 </div>
@@ -401,528 +201,80 @@ export default function Page() {
 </div>
 </div>
 </section>
-<!-- Marquee Section Start -->
-<div class="marque-section mt-0">
-<div class="marquee">
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-</div>
-</div>
-<!-- Service Section Start -->
-<section class="service-section-three fix section-padding">
-<div class="service-light">
-<img alt="img" src="/demo-8/assets/img/home-3/service-light1.png"/>
-</div>
-<div class="service-light-2">
-<img alt="img" src="/demo-8/assets/img/home-3/service-light2.png"/>
-</div>
+<!-- Certification Section Start -->
+<section class="certification-section fix section-padding bg-cover" style="background-image: url('/demo-8/assets/img/home-2/certification-bg.jpg');">
 <div class="container">
-<div class="section-title-area align-items-end">
+<div class="certification-wrapper">
+<div class="row g-4">
+<div class="col-xl-6">
+<div class="certification-content text-center text-xl-start">
 <div class="section-title mb-0">
-<span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> What we offer
-                                    </span>
-<h2 class="split-title">
-                                       Our <span class="style-font">Best Services</span> For <br/> Your Beauty</h2>
-</div>
-<p class="wow fadeInUp" data-wow-delay=".3s">
-                                    Lorem ipsum dolor sit amet consecteitur <br/> adipiscing elit Ut et massa mi. Aliquam in <br/> hendrerit urna. Pellentesque
-                                </p>
-</div>
-<div class="service-wrapper tp-service-pin">
-<div class="service-box-items tp-service-panel">
-<div class="content">
-<span class="number">
-                                            01
-                                        </span>
-<h3 class="title">
-<a href="/demo-8/service-details">Body Contouring (Liposuction, Tummy Tuck)</a>
-</h3>
-<p>
-                                            Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
-                                        </p>
-<ul>
-<li>
-<a href="/demo-8/service">Personalized care</a>
-</li>
-<li>
-<a href="/demo-8/service">Botox, Fillers</a>
-</li>
-<li>
-<a href="/demo-8/service">Augmentation, Reduction</a>
-</li>
-<li>
-<a href="/demo-8/service">Plastic Surgery</a>
-</li>
-<li>
-<a href="/demo-8/service">Treatment Plan</a>
-</li>
-</ul>
-</div>
-<div class="thumb">
-<img alt="img" src="/demo-8/assets/img/home-3/service-1.jpg"/>
-</div>
-</div>
-<div class="service-box-items tp-service-panel">
-<div class="content">
-<span class="number">
-                                            02
-                                        </span>
-<h3 class="title">
-<a href="/demo-8/service-details">Facial Surgery (Rhinoplasty, Facelift)</a>
-</h3>
-<p>
-                                            Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
-                                        </p>
-<ul>
-<li>
-<a href="/demo-8/service">Personalized care</a>
-</li>
-<li>
-<a href="/demo-8/service">Botox, Fillers</a>
-</li>
-<li>
-<a href="/demo-8/service">Augmentation, Reduction</a>
-</li>
-<li>
-<a href="/demo-8/service">Plastic Surgery</a>
-</li>
-<li>
-<a href="/demo-8/service">Treatment Plan</a>
-</li>
-</ul>
-</div>
-<div class="thumb">
-<img alt="img" src="/demo-8/assets/img/home-3/service-2.jpg"/>
-</div>
-</div>
-<div class="service-box-items tp-service-panel">
-<div class="content">
-<span class="number">
-                                            03
-                                        </span>
-<h3 class="title">
-<a href="/demo-8/service-details">Breast Surgery (Augmentation, Reduction)</a>
-</h3>
-<p>
-                                            Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
-                                        </p>
-<ul>
-<li>
-<a href="/demo-8/service">Personalized care</a>
-</li>
-<li>
-<a href="/demo-8/service">Botox, Fillers</a>
-</li>
-<li>
-<a href="/demo-8/service">Augmentation, Reduction</a>
-</li>
-<li>
-<a href="/demo-8/service">Plastic Surgery</a>
-</li>
-<li>
-<a href="/demo-8/service">Treatment Plan</a>
-</li>
-</ul>
-</div>
-<div class="thumb">
-<img alt="img" src="/demo-8/assets/img/home-3/service-3.jpg"/>
-</div>
-</div>
-<div class="service-box-items tp-service-panel">
-<div class="content">
-<span class="number">
-                                            04
-                                        </span>
-<h3 class="title">
-<a href="/demo-8/service-details">
-                                                Non-Surgical Treatments (Botox, Fillers)
-                                            </a>
-</h3>
-<p>
-                                            Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
-                                        </p>
-<ul>
-<li>
-<a href="/demo-8/service">Personalized care</a>
-</li>
-<li>
-<a href="/demo-8/service">Botox, Fillers</a>
-</li>
-<li>
-<a href="/demo-8/service">Augmentation, Reduction</a>
-</li>
-<li>
-<a href="/demo-8/service">Plastic Surgery</a>
-</li>
-<li>
-<a href="/demo-8/service">Treatment Plan</a>
-</li>
-</ul>
-</div>
-<div class="thumb">
-<img alt="img" src="/demo-8/assets/img/home-3/service-4.jpg"/>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Process Section Start -->
-<section class="process-section fix section-padding bg-cover" style="background-image: url('/demo-8/assets/img/home-3/process-bg.jpg');">
-<div class="container">
-<div class="section-title text-center mb-0">
 <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle text-white">
-<img alt="img" src="/demo-8/assets/img/home-1/01.png"/> Our Process
-                                </span>
-<h2 class="wa_title_spilt_1 text-white">
-                                    Find <span class="style-font">Most Easy Steps</span> For <br/> Your Skin Care.
-                                </h2>
-</div>
-<div class="process-wrapper fix">
-<div class="process-box-items wow fadeInUp" data-wow-delay=".2s">
-<div class="number">
-                                        1
-                                    </div>
-<div class="content">
-<h3 class="title">
-                                            Book an Appointment
-                                        </h3>
-<p>
-                                            Lorem ipsum dolor sit amet <br/> consecteitur adipisci elit Ut et <br/> massa mi.
-                                        </p>
-</div>
-</div>
-<div class="arrow-img wow fadeInUp" data-wow-delay=".4s">
-<img alt="img" src="/demo-8/assets/img/home-3/arrow.png"/>
-</div>
-<div class="process-box-items wow fadeInUp" data-wow-delay=".6s">
-<div class="number">
-                                        2
-                                    </div>
-<div class="content">
-<h3 class="title">
-                                            Conduct Oral Checkup
-                                        </h3>
-<p>
-                                            Lorem ipsum dolor sit amet <br/> consecteitur adipisci elit Ut et <br/> massa mi.
-                                        </p>
-</div>
-</div>
-<div class="arrow-img wow fadeInUp" data-wow-delay=".7s">
-<img alt="img" src="/demo-8/assets/img/home-3/arrow.png"/>
-</div>
-<div class="process-box-items wow fadeInUp" data-wow-delay=".8s">
-<div class="number">
-                                        3
-                                    </div>
-<div class="content">
-<h3 class="title">
-                                            Get Treatment
-                                        </h3>
-<p>
-                                            Lorem ipsum dolor sit amet <br/> consecteitur adipisci elit Ut et <br/> massa mi.
-                                        </p>
-</div>
-</div>
-</div>
-<div class="contact-wrapper-three">
-<div class="row">
-<div class="col-lg-6">
-<div class="form-contact-items">
-<h3 class="title">Book Your Consultation Today</h3>
-<form action="#" class="contact-form-box" id="contact-form">
-<div class="row g-3 align-items-center">
-<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-<div class="form-clt">
-<input placeholder="Name" type="text"/>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-<div class="form-clt">
-<input placeholder="Email" type="text"/>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-<div class="form-clt style-2">
-<input placeholder="+1 Phone" type="text"/>
-<div class="flag-img">
-<img alt="img" src="/demo-8/assets/img/home-3/flag.png"/>
-</div>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-<div class="form-clt style-2">
-<div class="input-group date" data-date-format="dd-mm-yyyy" id="datepicker">
-<input class="form-control" placeholder="Date Form" readonly="" type="text"/>
-<span class="input-group-addon"><i class="far fa-calendar"></i></span>
-</div>
-</div>
-</div>
-<div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-<div class="form-clt">
-<textarea name="message" placeholder="Type your message"></textarea>
-</div>
-</div>
-<div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-<button class="contact-btn" type="submit">
-                                                            Book Appointment
-                                                        </button>
-</div>
-</div>
-</form>
-<div class="bg-shape">
-<svg fill="none" height="522" viewbox="0 0 537 522" width="537" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.0336 9.71116C14.1898 4.30305 18.619 1.14717e-05 24.0294 9.29086e-06L526.35 1.16339e-05C532.236 8.73699e-06 536.849 5.05891 536.307 10.9202L489.987 512.179C489.5 517.452 484.986 521.431 479.694 521.253L9.66457 505.473C4.16306 505.288 -0.154697 500.692 0.0043076 495.19L14.0336 9.71116Z" fill="white" fill-opacity="0.1"></path>
-</svg>
-</div>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="doctor-image wow fadeInUp" data-wow-delay=".3s">
-<img alt="img" src="/demo-8/assets/img/home-3/doctor-image.png"/>
-</div>
-</div>
-</div>
-<div class="shape-img">
-<img alt="img" src="/demo-8/assets/img/home-3/shape1.png"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Feature Section Start -->
-<section class="feature-section-three fix section-padding">
-<div class="container">
-<div class="feature-wrapper-three">
-<div class="row g-4 align-items-center">
-<div class="col-lg-6">
-<div class="feature-image2 agn-choose-5-img">
-<img alt="img" src="/demo-8/assets/img/home-3/feature-image.png"/>
-<div class="light-image">
-<img alt="img" src="/demo-8/assets/img/home-3/feature-light.png"/>
-</div>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="feature-content">
-<div class="section-title mb-0">
-<span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> Core Treatment
+<img alt="img" src="/demo-8/assets/img/home-1/01.png"/> Certifications &amp; affiliations
                                                 </span>
-<h2 class="split-title">
-                                                Core <span class="style-font"> Treatment Pillars</span> Of Your Beauty</h2>
+<h2 class="wa_title_spilt_1 text-white">
+<span class="style-font">Trusted Experts </span> In Aesthetic Care
+                                                </h2>
 </div>
-<ul class="nav">
-<li class="nav-item wow fadeInUp" data-wow-delay=".2s">
-<a class="nav-link active" data-bs-toggle="tab" href="#About">
-                                                   Facial Refinement
-                                                    </a>
-</li>
-<li class="nav-item wow fadeInUp" data-wow-delay=".4s">
-<a class="nav-link" data-bs-toggle="tab" href="#Mission">
-                                                   Sculpted Silhouette
-                                                    </a>
-</li>
-<li class="nav-item wow fadeInUp" data-wow-delay=".4s">
-<a class="nav-link" data-bs-toggle="tab" href="#Vision">
-                                                    Sculpted Silhouette
-                                                    </a>
-</li>
-</ul>
-<div class="tab-content">
-<div class="tab-pane fade show active" id="About">
-<div class="list-content wow fadeInUp" data-wow-delay=".3s">
-<h3>
-                                                            Sculpted Silhouette
+<p class="text wow fadeInUp" data-wow-delay=".3s">
+                                                We combine advanced technology, experienced surgeons, and a patient-first approach to ensure exceptional outcomes and satisfaction.
+                                            </p>
+<a class="theme-btn-main style-2 bg-white-style wow fadeInUp" data-wow-delay=".5s" href="/demo-8/contact">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">Get In Touch</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+</a>
+</div>
+</div>
+<div class="col-xl-6">
+<div class="content-box-wrap">
+<div class="row g-4">
+<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+<div class="content-box-items">
+<h3 class="title">
+                                                            Board-certified surgeons
                                                         </h3>
 <p>
-                                                            Facial refinement at Rejuvita is rooted in structure and harmony. We enhance natural proportions while preserving expression, character, and individuality.
+                                                            We focus on measurable outcomes, using
+                                                            data to guide design decisions that
+                                                            drive business success.
                                                         </p>
-<ul>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                                Breast Lift
-                                                            </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                            Tummy Tuck
-                                                            </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                                High-Definition Liposuction
-                                                            </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                                Breast Augmentation
-                                                            </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                            Arm Lift (Brachioplasty)
-                                                            </li>
-</ul>
-<a class="theme-btn-main style-2" href="/demo-8/about">
-<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">Know More</span>
-<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-</a>
 </div>
 </div>
-<div class="tab-pane fade" id="Mission">
-<div class="list-content">
-<h3>
-                                                    Sculpted Silhouette
-                                                </h3>
+<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+<div class="content-box-items">
+<h3 class="title">
+                                                            Personalized care
+                                                        </h3>
 <p>
-                                                    Facial refinement at Rejuvita is rooted in structure and harmony. We enhance natural proportions while preserving expression, character, and individuality.
-                                                </p>
-<ul>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        Breast Lift
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                       Tummy Tuck
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        High-Definition Liposuction
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        Breast Augmentation
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                       Arm Lift (Brachioplasty)
-                                                    </li>
-</ul>
-<a class="theme-btn-main style-2" href="/demo-8/about">
-<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">Know More</span>
-<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-</a>
+                                                            We focus on measurable outcomes, using
+                                                            data to guide design decisions that
+                                                            drive business success.
+                                                        </p>
 </div>
 </div>
-<div class="tab-pane fade" id="Vision">
-<div class="list-content">
-<h3>
-                                                    Sculpted Silhouette
-                                                </h3>
+<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+<div class="content-box-items">
+<h3 class="title">
+                                                            Modern equipment
+                                                        </h3>
 <p>
-                                                    Facial refinement at Rejuvita is rooted in structure and harmony. We enhance natural proportions while preserving expression, character, and individuality.
-                                                </p>
-<ul>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        Breast Lift
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                       Tummy Tuck
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        High-Definition Liposuction
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                        Breast Augmentation
-                                                    </li>
-<li>
-<img alt="" src="/demo-8/assets/img/home-3/star.png"/>
-                                                       Arm Lift (Brachioplasty)
-                                                    </li>
-</ul>
-<a class="theme-btn-main style-2" href="/demo-8/about">
-<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-<span class="theme-btn">Know More</span>
-<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
-</a>
+                                                            We focus on measurable outcomes, using
+                                                            data to guide design decisions that
+                                                            drive business success.
+                                                        </p>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".9s">
+<div class="content-box-items">
+<h3 class="title">
+                                                            High success rate
+                                                        </h3>
+<p>
+                                                            We focus on measurable outcomes, using
+                                                            data to guide design decisions that
+                                                            drive business success.
+                                                        </p>
 </div>
 </div>
 </div>
@@ -932,182 +284,289 @@ export default function Page() {
 </div>
 </div>
 </section>
-<!-- Marquee Section Start -->
-<div class="marque-section mt-0">
-<div class="marquee">
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-<div class="marquee-group">
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Cosmetic surgery
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> health care
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> beauty
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Breast Reduction
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> online doctor
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Hair fall Treatment
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> Lip Enhancement
-                                </div>
-<div class="text">
-<img alt="img" src="/demo-8/assets/img/home-1/star.png"/> stomatology
-                                </div>
-</div>
-</div>
-</div>
-<!-- Project Section Start -->
-<section class="project-section fix section-padding">
+<!-- Service Section Start -->
+<section class="service-section-two fix section-padding">
 <div class="container">
-<div class="section-title-area align-items-end">
-<div class="section-title mb-0">
-<span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> Successful surgery
-                                    </span>
-<h2 class="wa_title_spilt_1">
-<span class="style-font">Start Building </span> Your <br/> Future Today With Us
-                                        </h2>
-</div>
-<div class="array-button">
-<button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-<div class="swiper-dot">
-<div class="dot2"></div>
-</div>
-<button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
-</div>
-</div>
-</div>
-<div class="swiper project-slider">
+<div class="swiper service-slider-two">
 <div class="swiper-wrapper">
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".2s">
-<div class="project-thumb-items">
-<img alt="img" src="/demo-8/assets/img/home-1/project-1.jpg"/>
-<div class="content">
-<h3 class="title">
-<a href="/demo-8/project-details">
-                                                    Woman before and after plastic surgery <br/>
-                                                    of breast enhancement 
-                                                </a>
-</h3>
-<a class="icon" href="/demo-8/project-details">
-<i class="fa-solid fa-arrow-up-right"></i>
+<div class="swiper-slide">
+<div class="row g-4 align-items-center">
+<div class="col-lg-6">
+<div class="service-image-two">
+<img alt="img" src="/demo-8/assets/img/home-2/service-image-1.jpg"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="service-content-two">
+<span class="number">
+                                                        01
+                                                    </span>
+<h2 class="title">
+<a href="/demo-8/service-details">Facial Surgery (Rhinoplasty, Facelift)</a>
+</h2>
+<div class="text">
+                                                        Facial surgery procedures are designed to enhance your natural facial features while maintaining balance and harmony. Whether it’s reshaping the nose or reducing signs of aging, our expert surgeons focus on delivering refined and natural-looking results.
+                                                    </div>
+<div class="service-list">
+<span>Key Points</span>
+<ul>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Natural and balanced facial enhancement
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Advanced, minimally invasive techniques
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Personalized treatment plans
+                                                            </li>
+</ul>
+</div>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/service-details">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">view details</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
 </div>
 </div>
 </div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".4s">
-<div class="project-thumb-items">
-<img alt="img" src="/demo-8/assets/img/home-1/project-2.jpg"/>
-<div class="content">
-<h3 class="title">
-<a href="/demo-8/project-details">
-                                                    Woman before and after plastic surgery <br/>
-                                                    of breast enhancement 
-                                                </a>
-</h3>
-<a class="icon" href="/demo-8/project-details">
-<i class="fa-solid fa-arrow-up-right"></i>
+</div>
+<div class="swiper-slide">
+<div class="row g-4 align-items-center">
+<div class="col-lg-6">
+<div class="service-image-two">
+<img alt="img" src="/demo-8/assets/img/home-2/service-image-2.jpg"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="service-content-two">
+<span class="number">
+                                                        02
+                                                    </span>
+<h2 class="title">
+<a href="/demo-8/service-details">Facial Surgery (Rhinoplasty, Facelift)</a>
+</h2>
+<div class="text">
+                                                        Facial surgery procedures are designed to enhance your natural facial features while maintaining balance and harmony. Whether it’s reshaping the nose or reducing signs of aging, our expert surgeons focus on delivering refined and natural-looking results.
+                                                    </div>
+<div class="service-list">
+<span>Key Points</span>
+<ul>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Natural and balanced facial enhancement
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Advanced, minimally invasive techniques
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Personalized treatment plans
+                                                            </li>
+</ul>
+</div>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/service-details">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">view details</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
 </div>
 </div>
 </div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".6s">
-<div class="project-thumb-items">
-<img alt="img" src="/demo-8/assets/img/home-1/project-3.jpg"/>
-<div class="content">
-<h3 class="title">
-<a href="/demo-8/project-details">
-                                                    Woman before and after plastic surgery <br/>
-                                                    of breast enhancement 
-                                                </a>
-</h3>
-<a class="icon" href="/demo-8/project-details">
-<i class="fa-solid fa-arrow-up-right"></i>
+</div>
+<div class="swiper-slide">
+<div class="row g-4 align-items-center">
+<div class="col-lg-6">
+<div class="service-image-two">
+<img alt="img" src="/demo-8/assets/img/home-2/service-image-3.jpg"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="service-content-two">
+<span class="number">
+                                                        03
+                                                    </span>
+<h2 class="title">
+<a href="/demo-8/service-details">Facial Surgery (Rhinoplasty, Facelift)</a>
+</h2>
+<div class="text">
+                                                        Facial surgery procedures are designed to enhance your natural facial features while maintaining balance and harmony. Whether it’s reshaping the nose or reducing signs of aging, our expert surgeons focus on delivering refined and natural-looking results.
+                                                    </div>
+<div class="service-list">
+<span>Key Points</span>
+<ul>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Natural and balanced facial enhancement
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Advanced, minimally invasive techniques
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Personalized treatment plans
+                                                            </li>
+</ul>
+</div>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/service-details">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">view details</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
 </div>
 </div>
 </div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".8s">
-<div class="project-thumb-items">
-<img alt="img" src="/demo-8/assets/img/home-1/project-4.jpg"/>
-<div class="content">
-<h3 class="title">
-<a href="/demo-8/project-details">
-                                                    Woman before and after plastic surgery <br/>
-                                                    of breast enhancement 
-                                                </a>
-</h3>
-<a class="icon" href="/demo-8/project-details">
-<i class="fa-solid fa-arrow-up-right"></i>
+</div>
+<div class="swiper-slide">
+<div class="row g-4 align-items-center">
+<div class="col-lg-6">
+<div class="service-image-two">
+<img alt="img" src="/demo-8/assets/img/home-2/service-image-4.jpg"/>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="service-content-two">
+<span class="number">
+                                                        04
+                                                    </span>
+<h2 class="title">
+<a href="/demo-8/service-details">Facial Surgery (Rhinoplasty, Facelift)</a>
+</h2>
+<div class="text">
+                                                        Facial surgery procedures are designed to enhance your natural facial features while maintaining balance and harmony. Whether it’s reshaping the nose or reducing signs of aging, our expert surgeons focus on delivering refined and natural-looking results.
+                                                    </div>
+<div class="service-list">
+<span>Key Points</span>
+<ul>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Natural and balanced facial enhancement
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Advanced, minimally invasive techniques
+                                                            </li>
+<li>
+<img alt="img" src="/demo-8/assets/img/home-2/check.png"/>
+                                                                Personalized treatment plans
+                                                            </li>
+</ul>
+</div>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/service-details">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">view details</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
 </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-dot-2">
+<div class="dot"></div>
+</div>
+</section>
+<!-- Project Section Start -->
+<section class="project-section-two fix section-padding bg-white">
+<div class="project-area-two">
+<div class="container">
+<div class="section-title-area">
+<div class="section-title style-4">
+<h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
+                                        our successful <br/> surgery
+                                    </h2>
+</div>
+<a class="theme-btn-main style-2 bg-black-style" href="/demo-8/project">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">View All</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+</a>
+</div>
+</div>
+<div class="row g-4">
+<div class="col-xl-8 col-lg-7 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+<div class="project-style-image-2">
+<img alt="img" src="/demo-8/assets/img/home-2/project-01.jpg"/>
+<div class="content">
+<h3>
+<a href="/demo-8/project-details">
+                                                Plastic surgery
+                                            </a>
+</h3>
+<ul>
+<li>
+<a href="/demo-8/project-details">Consulting</a>
+</li>
+<li>
+<a href="/demo-8/project-details">Business</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+<div class="project-style-image-2">
+<img alt="img" src="/demo-8/assets/img/home-2/project-02.jpg"/>
+<div class="content">
+<h3>
+<a href="/demo-8/project-details">
+                                               Plastic surgery
+                                            </a>
+</h3>
+<ul>
+<li>
+<a href="/demo-8/project-details">Consulting</a>
+</li>
+<li>
+<a href="/demo-8/project-details">Business</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+<div class="project-style-image-2">
+<img alt="img" src="/demo-8/assets/img/home-2/project-03.jpg"/>
+<div class="content">
+<h3>
+<a href="/demo-8/project-details">
+                                               Plastic surgery
+                                            </a>
+</h3>
+<ul>
+<li>
+<a href="/demo-8/project-details">Consulting</a>
+</li>
+<li>
+<a href="/demo-8/project-details">Business</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-8 col-lg-7 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+<div class="project-style-image-2">
+<img alt="img" src="/demo-8/assets/img/home-2/project-04.jpg"/>
+<div class="content">
+<h3>
+<a href="/demo-8/project-details">
+                                               Plastic surgery
+                                            </a>
+</h3>
+<ul>
+<li>
+<a href="/demo-8/project-details">Consulting</a>
+</li>
+<li>
+<a href="/demo-8/project-details">Business</a>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -1116,76 +575,64 @@ export default function Page() {
 </section>
 <!-- Shop Section Start -->
 
-<!-- Testimonial Section Start -->
-<section class="testimonial-section-three fix section-padding">
+<!-- Work Process Section Start -->
+<section class="work-process-section-two fix section-padding bg-cover" style="background-image: url('/demo-8/assets/img/home-2/work-process-bg.jpg');">
 <div class="container">
-<div class="section-title-area align-items-end">
-<div class="section-title">
+<div class="work-process-wrapper">
+<div class="row g-4 align-items-center">
+<div class="col-xl-5 col-lg-6">
+<div class="process-content">
+<div class="section-title mb-0">
 <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> Testimonials
-                                    </span>
+<img alt="img" src="/demo-8/assets/img/star.png"/> Our work process
+                                                </span>
 <h2 class="wa_title_spilt_1">
-                                        What
-                                        <span class="style-font">Peoples Say </span> About <br/> Our Service
-                                        </h2>
+                                                   Find <span class="style-font">Most Easy Steps </span> For Beauty Care.
+                                                </h2>
 </div>
-<div class="array-button">
-<button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-<button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+<p class="text wow fadeInUp" data-wow-delay=".3s">
+                                               Lorem ipsum dolor sit amet consecteitur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. 
+                                            </p>
+<ul class="list-items wow fadeInUp" data-wow-delay=".5s">
+<li>
+<div class="number">
+                                                        1
+                                                    </div>
+<div class="content">
+<h3 class="title">Book an Appointment</h3>
+<p>
+                                                            Lorem ipsum dolor sit amet consecteitur adipisci elit Ut et massa mi.
+                                                        </p>
+</div>
+</li>
+<li>
+<div class="number">
+                                                        2
+                                                    </div>
+<div class="content">
+<h3 class="title">Conduct Oral Checkup</h3>
+<p>
+                                                            Lorem ipsum dolor sit amet consecteitur adipisci elit Ut et massa mi.
+                                                        </p>
+</div>
+</li>
+<li>
+<div class="number">
+                                                        3
+                                                    </div>
+<div class="content">
+<h3 class="title">Get Treatment</h3>
+<p>
+                                                            Lorem ipsum dolor sit amet consecteitur adipisci elit Ut et massa mi.
+                                                        </p>
+</div>
+</li>
+</ul>
 </div>
 </div>
-</div>
-<div class="swiper testimonial-slider-three">
-<div class="swiper-wrapper">
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".2s">
-<div class="testimonial-image-three">
-<img alt="img" src="/demo-8/assets/img/home-3/testimonial-image-1.jpg"/>
-</div>
-</div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".4s">
-<div class="testimonial-box-items-3">
-<div class="quote-icon">
-<img alt="img" src="/demo-8/assets/img/home-3/quote-icon.png"/>
-</div>
-<p class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sap fringilla, mattis ligula consectetur, ultrices mauris. Maecenas.
-                                        </p>
-<div class="client-info">
-<div class="client-img">
-<img alt="img" src="/demo-8/assets/img/home-3/client-image1.png"/>
-</div>
-<div class="client-content">
-<h3>
-                                                    Alexander mithun
-                                                </h3>
-<span>From canada</span>
-</div>
-</div>
-</div>
-</div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".6s">
-<div class="testimonial-image-three">
-<img alt="img" src="/demo-8/assets/img/home-3/testimonial-image-2.jpg"/>
-</div>
-</div>
-<div class="swiper-slide wow fadeInUp" data-wow-delay=".8s">
-<div class="testimonial-box-items-3">
-<div class="quote-icon">
-<img alt="img" src="/demo-8/assets/img/home-3/quote-icon.png"/>
-</div>
-<p class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sap fringilla, mattis ligula consectetur, ultrices mauris. Maecenas.
-                                        </p>
-<div class="client-info">
-<div class="client-img">
-<img alt="img" src="/demo-8/assets/img/home-3/client-image1.png"/>
-</div>
-<div class="client-content">
-<h3>
-                                                    Alexander mithun
-                                                </h3>
-<span>From canada</span>
-</div>
+<div class="col-xl-7 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+<div class="process-thumb fix">
+<img alt="img" data-speed=".8" src="/demo-8/assets/img/home-2/process-01.jpg"/>
 </div>
 </div>
 </div>
@@ -1234,27 +681,158 @@ export default function Page() {
 </div>
 </div>
 </section>
-<!-- Faq Section Start -->
-<section class="faq-section-three fix section-padding">
-<div class="faq-shape-1 float-bob-y">
-<img alt="img" src="/demo-8/assets/img/home-3/faq-shape-1.png"/>
+<!-- Testimonial Section Start -->
+<section class="testimonial-section testimonial-section-two client-testimonial fix section-padding">
+<div class="client-1">
+<img alt="img" src="/demo-8/assets/img/home-2/client-1.png"/>
 </div>
-<div class="faq-shape-2 float-bob-y">
-<img alt="img" src="/demo-8/assets/img/home-3/faq-shape-2.png"/>
+<div class="client-2">
+<img alt="img" src="/demo-8/assets/img/home-2/client-3.png"/>
+</div>
+<div class="client-3">
+<img alt="img" src="/demo-8/assets/img/home-2/client-2.png"/>
 </div>
 <div class="container">
-<div class="section-title text-center mb-0">
+<div class="section-title text-center">
 <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
-<img alt="img" src="/demo-8/assets/img/star.png"/> Faq
+<img alt="img" src="/demo-8/assets/img/star.png"/> Our testimonials
                                 </span>
 <h2 class="wa_title_spilt_1">
-<span class="style-font">Frequently </span> Ask Questions
+                                    What <span class="style-font">Peoples Say</span> About <br/> Our Service
                                 </h2>
 </div>
-<div class="row justify-content-center">
-<div class="col-lg-8">
+</div>
+<div class="client-testimonial__warpper">
+<div class="client-testimonial__item testimonial-box-style-1 bg-cover" style="background-image: url('/demo-8/assets/img/home-2/testi-bg.png');">
+<div class="quote-icon">
+<img alt="img" src="/demo-8/assets/img/home-1/quote.png"/>
+</div>
+<h3>
+                                    “From the outset, we provid expectations and regular updates our progress. You’ll receive comprehensive reports outline. From the outset, we pro expectations and regular updates our progress.
+                                </h3>
+<div class="client-info-item">
+<div class="client-info">
+<h4>Robert Allison</h4>
+<span>Sales manager</span>
+</div>
+<div class="star">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+</div>
+</div>
+<div class="client-testimonial__item testimonial-box-style-1 style-2 bg-cover" style="background-image: url('/demo-8/assets/img/home-2/testi-bg.png');">
+<div class="quote-icon">
+<img alt="img" src="/demo-8/assets/img/home-1/quote.png"/>
+</div>
+<h3>
+                                    “From the outset, we provid expectations and regular updates our progress. You’ll receive comprehensive reports outline. From the outset, we pro expectations and regular updates our progress.
+                                </h3>
+<div class="client-info-item">
+<div class="client-info">
+<h4>Daniel Taeloor </h4>
+<span>Sales manager</span>
+</div>
+<div class="star">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+</div>
+</div>
+<div class="client-testimonial__item testimonial-box-style-1 bg-cover" style="background-image: url('/demo-8/assets/img/home-2/testi-bg.png');">
+<div class="quote-icon">
+<img alt="img" src="/demo-8/assets/img/home-1/quote.png"/>
+</div>
+<h3>
+                                    “From the outset, we provid expectations and regular updates our progress. You’ll receive comprehensive reports outline. From the outset, we pro expectations and regular updates our progress.
+                                </h3>
+<div class="client-info-item">
+<div class="client-info">
+<h4>Robert Allison</h4>
+<span>Sales manager</span>
+</div>
+<div class="star">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+</div>
+</div>
+<div class="client-testimonial__item testimonial-box-style-1 style-2 bg-cover" style="background-image: url('/demo-8/assets/img/home-2/testi-bg.png');">
+<div class="quote-icon">
+<img alt="img" src="/demo-8/assets/img/home-1/quote.png"/>
+</div>
+<h3>
+                                    “From the outset, we provid expectations and regular updates our progress. You’ll receive comprehensive reports outline. From the outset, we pro expectations and regular updates our progress.
+                                </h3>
+<div class="client-info-item">
+<div class="client-info">
+<h4>Daniel Taeloor </h4>
+<span>Sales manager</span>
+</div>
+<div class="star">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Cta Section Start -->
+<section class="cta-section-two fix bg-cover" style="background-image: url('/demo-8/assets/img/home-2/cta-banner.jpg');">
+<div class="cta-image">
+<img alt="img" src="/demo-8/assets/img/home-2/cta-img.png"/>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-xl-8">
+<div class="cta-content">
+<div class="section-title mb-0">
+<span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle text-white">
+<img alt="img" src="/demo-8/assets/img/home-1/01.png"/> Transform your beauty
+                                            </span>
+<h2 class="wa_title_spilt_1 text-white">
+                                                Start Your  <span class="style-font">Transformation Today</span>
+</h2>
+</div>
+<p class="text wow fadeInUp" data-wow-delay=".3s">
+                                            Our team is committed to delivering high-quality services tailored to your needs. With years of experience and a passion for excellence, we focus on creating solutions
+                                        </p>
+<div class="button-items wow fadeInUp" data-wow-delay=".5s">
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/contact">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">Book Consultation</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+</a>
+<a class="theme-btn-main style-2 bg-white-style" href="/demo-8/about">
+<span class="theme-btn-arrow-left"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+<span class="theme-btn">Know more us</span>
+<span class="theme-btn-arrow-right"> <i class="fa-solid fa-arrow-up-right"></i> </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Faq Section Start -->
+<section class="faq-section-three fix section-padding">
+<div class="container">
+<div class="row justify-content-between g-4">
+<div class="col-xl-7 col-lg-7 order-2 order-lg-1">
 <div class="faq-items-two">
-<ul class="accordion-box wow fadeInUp" data-wow-delay=".3s">
+<ul class="accordion-box mt-0 wow fadeInUp" data-wow-delay=".3s">
 <!--Block-->
 <li class="accordion block active-block">
 <div class="acc-btn active">
@@ -1328,16 +906,95 @@ export default function Page() {
 </ul>
 </div>
 </div>
+<div class="col-xl-4 col-lg-5 order-1 order-lg-2">
+<div class="faq-content-two">
+<div class="section-title mb-0">
+<span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+<img alt="img" src="/demo-8/assets/img/star.png"/> Faq
+                                            </span>
+<h2 class="wa_title_spilt_1">
+<span class="style-font">Frequently </span> Ask Questions
+                                            </h2>
+</div>
+<div class="contact-info wow fadeInUp" data-wow-delay=".3s">
+<div class="icon">
+<img alt="img" src="/demo-8/assets/img/home-2/phone.png"/>
+</div>
+<div class="content">
+<p>Get In Touch</p>
+<h3 class="number">
+<a href="tel:+1103214560987">+11 0321 456 0987</a>
+</h3>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
-<!-- Cta Banner Section Start -->
-<div class="cta-banner-section full-img-wrap3">
-<div class="cta-banner-wrap full-img3 bg-cover" style="background-image: url('/demo-8/assets/img/home-3/cta-banner.jpg');">
-</div>
-</div>
 <!-- News Section Start -->
 
+<!-- Brand Section Start -->
+<div class="brand-section-one section-padding">
+<div class="container">
+<div class="brand-wrapper-one">
+<div class="swiper brand-slider-one">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="brand-box-one">
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand1.png"/>
+</span>
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand1.png"/>
+</span>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="brand-box-one">
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand2.png"/>
+</span>
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand2.png"/>
+</span>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="brand-box-one">
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand3.png"/>
+</span>
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand3.png"/>
+</span>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="brand-box-one">
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand4.png"/>
+</span>
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand4.png"/>
+</span>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="brand-box-one">
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand5.png"/>
+</span>
+<span class="brand-img-1">
+<img alt="img" src="/demo-8/assets/img/home-1/brand5.png"/>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- Footer Section Start -->
 
 `}} />

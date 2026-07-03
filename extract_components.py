@@ -52,6 +52,25 @@ if header_tag:
             if a.parent and a.parent.name == 'li':
                 a.parent.decompose()
 
+        # Simplify Home link
+        for li in header_tag.find_all('li', class_=lambda c: c and 'menu-thumb' in c):
+            # This is the desktop home menu
+            a_tag = soup.new_tag('a', href='/demo-8', **{'class': 'nav-link'})
+            a_tag.string = 'Home'
+            new_li = soup.new_tag('li', **{'class': 'nav-item'})
+            new_li.append(a_tag)
+            li.replace_with(new_li)
+            
+        for li in header_tag.find_all('li', class_=lambda c: c and 'sub-mobile-menu' in c):
+            # Check if this is the mobile Home menu
+            a = li.find('a')
+            if a and 'Home' in a.get_text():
+                a_tag = soup.new_tag('a', href='/demo-8')
+                a_tag.string = 'Home'
+                new_li = soup.new_tag('li')
+                new_li.append(a_tag)
+                li.replace_with(new_li)
+
 header_html = str(header_tag) if header_tag else ""
 footer_html = str(footer_tag) if footer_tag else ""
 

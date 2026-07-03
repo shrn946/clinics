@@ -5,12 +5,12 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <>
-      <header suppressHydrationWarning className="header-section header-1" id="sticky-header">
+      <header suppressHydrationWarning className="header-section header-1 header-3" id="sticky-header">
 <div className="header-main">
 {/* ===================== DESKTOP NAVBAR ===================== */}
 <nav className="navbar p-0 navbar-expand-xl d-none d-xl-flex">
 <a className="navbar-brand" href="/demo-8">
-<h2 style={{margin: 0, fontWeight: "800", fontSize: "32px", fontFamily: "var(--theme-font, sans-serif)", letterSpacing: "-1px"}}><span style={{color: "var(--theme-color-2)"}}>Lumina</span> <span style={{fontWeight: "300", color: "var(--theme-color-1)"}}>Beauty</span></h2>
+<h2 style={{margin: 0, fontWeight: "800", fontSize: "32px", fontFamily: "var(--theme-font, sans-serif)", letterSpacing: "-1px"}}><span style={{color: "#ffffff"}}>Lumina</span> <span style={{fontWeight: "300", color: "rgba(255,255,255,0.7)"}}>Beauty</span></h2>
 </a>
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
 <span className="navbar-toggler-icon"></span>
@@ -18,84 +18,7 @@ export default function Header() {
 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 <ul className="navbar-nav">
 {/* HOME */}
-<li className="nav-item menu-thumb">
-<a className="nav-link active" href="javascript:void(0)">
-                                            Home <i className="fas fa-chevron-down"></i>
-</a>
-<ul className="sub-menu has-homemenu list-unstyled">
-<li>
-<div className="homemenu-items">
-<div className="row row-cols-xl-5 row-cols-md-2 row-cols-2">
-<div className="col homemenu">
-<div className="homemenu-thumb">
-<img alt="img" src="/demo-8/assets/img/header/home-1.jpg"/>
-<div className="demo-button">
-<a className="theme-btn" href="/demo-8">
-                                                                        Demo Page <i className="fa-solid fa-arrow-up-right"></i>
-</a>
-</div>
-</div>
-<div className="homemenu-content text-center">
-<a className="hometitle" href="/demo-8">
-                                                                    Plastic Surgery 01
-                                                                </a>
-</div>
-</div>
-<div className="col homemenu">
-<div className="homemenu-thumb">
-<img alt="img" src="/demo-8/assets/img/header/home-2.jpg"/>
-<div className="demo-button">
-<a className="theme-btn" href="/demo-8/index-2">
-                                                                        Demo Page <i className="fa-solid fa-arrow-up-right"></i>
-</a>
-</div>
-</div>
-<div className="homemenu-content text-center">
-<a className="hometitle" href="/demo-8/index-2">
-                                                                  Plastic Surgery 02
-                                                                </a>
-</div>
-</div>
-<div className="col homemenu">
-<div className="homemenu-thumb">
-<img alt="img" src="/demo-8/assets/img/header/home-3.jpg"/>
-<div className="demo-button">
-<a className="theme-btn" href="/demo-8/index-3">
-                                                                        Demo Page <i className="fa-solid fa-arrow-up-right"></i>
-</a>
-</div>
-</div>
-<div className="homemenu-content text-center">
-<a className="hometitle" href="/demo-8/index-3">
-                                                                   Plastic Surgery 03
-                                                                </a>
-</div>
-</div>
-<div className="col homemenu">
-<div className="homemenu-thumb">
-<img alt="img" src="/demo-8/assets/img/header/home-5.jpg"/>
-</div>
-<div className="homemenu-content text-center">
-<span className="hometitle">
-                                                                   Coming Soon
-                                                                </span>
-</div>
-</div>
-<div className="col homemenu">
-<div className="homemenu-thumb">
-<img alt="img" src="/demo-8/assets/img/header/home-5.jpg"/>
-</div>
-<div className="homemenu-content text-center">
-<span className="hometitle">
-                                                                   Coming Soon
-                                                                </span>
-</div>
-</div>
-</div>
-</div>
-</li>
-</ul>
-</li>
+<li className="nav-item"><a className="nav-link" href="/demo-8">Home</a></li>
 {/* ABOUT */}
 <li className="nav-item">
 <a className="nav-link" href="/demo-8/about">About Us</a>
@@ -155,7 +78,7 @@ export default function Header() {
 <div className="menu-right-info">
 <div className="number-info">
 <div className="icon">
-<img alt="img" src="/demo-8/assets/img/phone.png"/>
+<img alt="img" src="/demo-8/assets/img/phone2.png"/>
 </div>
 <a className="number" href="tel:+380961381876">+380961381876</a>
 </div>
@@ -262,16 +185,7 @@ export default function Header() {
 <div className="menu-body">
 <div className="menu-list">
 <ul className="list-unstyled">
-<li className="sub-mobile-menu">
-<a href="javascript:void(0)">
-                                            Home <i className="fas fa-chevron-down float-end"></i>
-</a>
-<ul className="list-unstyled">
-<li><a href="/demo-8">Plastic Surgery 01</a></li>
-<li><a href="/demo-8/index-2">Plastic Surgery 02</a></li>
-<li><a href="/demo-8/index-3">Plastic Surgery 03</a></li>
-</ul>
-</li>
+<li><a href="/demo-8">Home</a></li>
 <li><a href="/demo-8/about">About Us</a></li>
 <li className="sub-mobile-menu">
 <a href="javascript:void(0)">

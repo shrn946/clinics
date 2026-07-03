@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 const scripts = [
   "/demo-8/assets/js/jquery-3.7.1.min.js",
@@ -17,6 +18,8 @@ const scripts = [
   "/demo-8/assets/js/bootstrap-datepicker.js",
   "/demo-8/assets/js/swiper-bundle.min.js",
   "/demo-8/assets/js/jquery.magnific-popup.min.js",
+  "/demo-8/assets/js/matter.js",
+  "/demo-8/assets/js/throwable.js",
   "/demo-8/assets/js/main.js"
 ];
 
@@ -50,5 +53,17 @@ export default function ScriptLoader() {
     }
   }, []);
   
+  const pathname = usePathname();
+  useEffect(() => {
+    // Re-initialize scripts on route change if they exist
+    if (typeof window !== 'undefined' && window.jQuery) {
+      setTimeout(() => {
+        if (window.jQuery.fn.tThrowable) {
+          window.jQuery("[data-t-throwable-scene]").tThrowable();
+        }
+      }, 500);
+    }
+  }, [pathname]);
+
   return null;
 }

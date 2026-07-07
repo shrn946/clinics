@@ -643,6 +643,9 @@ try { // #46 Safari throws in private browsing for localStorage
 
 function isTouchpad(deltaY) {
     if (!deltaY) return;
+    if (!deltaBuffer) {
+        deltaBuffer = [];
+    }
     if (!deltaBuffer.length) {
         deltaBuffer = [deltaY, deltaY, deltaY];
     }

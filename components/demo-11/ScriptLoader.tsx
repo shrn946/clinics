@@ -21,7 +21,6 @@ export default function ScriptLoader() {
         "/demo-11/assets/js/jquery.magnific-popup.min.js",
         "/demo-11/assets/js/circle-progress.min.js",
         "/demo-11/assets/js/jquery.slicknav.js",
-        "/demo-11/assets/js/SmoothScroll.js",
         "/demo-11/assets/js/parallaxie.js",
         "/demo-11/assets/js/jquery.mb.YTPlayer.min.js",
         "/demo-11/assets/js/validator.min.js",

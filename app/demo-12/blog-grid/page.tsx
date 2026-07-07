@@ -118,7 +118,7 @@ export default function Page() {
 <div class="blog-thumb tp-thumb-common fix">
 <div class="tp-thumb-common-overlay wow"></div>
 <a href="/demo-12/blog-details">
-<img alt="" src="/demo-12/assets/img/blog/blog-sm-1.html"/>
+<img alt="" src="/demo-12/assets/img/blog/blog-sm-1.jpg"/>
 </a>
 </div>
 <div class="blog-btn">
@@ -139,7 +139,7 @@ export default function Page() {
 <div class="blog-thumb tp-thumb-common fix">
 <div class="tp-thumb-common-overlay wow"></div>
 <a href="/demo-12/blog-details">
-<img alt="" src="/demo-12/assets/img/blog/blog-sm-2.html"/>
+<img alt="" src="/demo-12/assets/img/blog/blog-sm-2.jpg"/>
 </a>
 </div>
 <div class="blog-btn">
@@ -160,7 +160,7 @@ export default function Page() {
 <div class="blog-thumb tp-thumb-common fix">
 <div class="tp-thumb-common-overlay wow"></div>
 <a href="/demo-12/blog-details">
-<img alt="" src="/demo-12/assets/img/blog/blog-sm-3.html"/>
+<img alt="" src="/demo-12/assets/img/blog/blog-sm-3.jpg"/>
 </a>
 </div>
 <div class="blog-btn">
@@ -318,12 +318,12 @@ export default function Page() {
 <div class="splide__list">
 <div class="splide__slide">
 <div class="brand-slider-item">
-<h4 class="brand-slider-title"> <i><img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.html"/></i> <a href="#">Get In Touch</a> </h4>
+<h4 class="brand-slider-title"> <i><img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.svg"/></i> <a href="#">Get In Touch</a> </h4>
 </div>
 </div>
 <div class="splide__slide">
 <div class="brand-slider-item">
-<h4 class="brand-slider-title"><i> <img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.html"/></i> <a href="#">Healing Is Better</a></h4>
+<h4 class="brand-slider-title"><i> <img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.svg"/></i> <a href="#">Healing Is Better</a></h4>
 </div>
 </div>
 <div class="splide__slide">

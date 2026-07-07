@@ -264,22 +264,22 @@ export default function Page() {
 <div class="swiper-wrapper">
 <div class="swiper-slide">
 <div class="brand-6-item">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-1.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-1.svg"/>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-6-item">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-2.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-2.svg"/>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-6-item">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-3.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-3.svg"/>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-6-item">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-4.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-4.svg"/>
 </div>
 </div>
 </div>

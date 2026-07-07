@@ -310,28 +310,28 @@ export default function Page() {
 <div class="swiper-slide">
 <div class="brand-item">
 <a href="#">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-1.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-1.svg"/>
 </a>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-item">
 <a href="#">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-2.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-2.svg"/>
 </a>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-item">
 <a href="#">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-3.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-3.svg"/>
 </a>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="brand-item">
 <a href="#">
-<img alt="" src="/demo-12/assets/img/brand/sponsor-4.html"/>
+<img alt="" src="/demo-12/assets/img/brand/sponsor-4.svg"/>
 </a>
 </div>
 </div>
@@ -453,7 +453,7 @@ export default function Page() {
 <div class="team-item fix tp-thumb-common mb-40">
 <div class="tp-thumb-common-overlay wow"></div>
 <div class="team-profile">
-<img alt="" src="/demo-12/assets/img/team/team-1.html"/>
+<img alt="" src="/demo-12/assets/img/team/team-1.jpg"/>
 </div>
 <div class="team-content text-center">
 <div class="team-author-social pt-50 pb-20">
@@ -470,7 +470,7 @@ export default function Page() {
 <div class="team-item fix tp-thumb-common mb-40">
 <div class="tp-thumb-common-overlay wow"></div>
 <div class="team-profile">
-<img alt="" src="/demo-12/assets/img/team/team-2.html"/>
+<img alt="" src="/demo-12/assets/img/team/team-2.jpg"/>
 </div>
 <div class="team-content text-center">
 <div class="team-author-social pt-50 pb-20">
@@ -487,7 +487,7 @@ export default function Page() {
 <div class="team-item fix tp-thumb-common mb-40">
 <div class="tp-thumb-common-overlay wow"></div>
 <div class="team-profile">
-<img alt="" src="/demo-12/assets/img/team/team-3.html"/>
+<img alt="" src="/demo-12/assets/img/team/team-3.jpg"/>
 </div>
 <div class="team-content text-center">
 <div class="team-author-social pt-50 pb-20">
@@ -512,11 +512,11 @@ export default function Page() {
 <div class="col-xl-7 col-lg-6">
 <div class="testimonial-wrap p-relative mt-20 mb-60">
 <div class="testimonial-main-bg">
-<img alt="" src="/demo-12/assets/img/testimonial/testimonial-1-bg-1.html"/>
+<img alt="" src="/demo-12/assets/img/testimonial/testimonial-1-bg-1.jpg"/>
 </div>
 <div class="testimonial-shape">
 <div class="testimonial-shape-1 wow fadeInRight" data-wow-delay=".4s" data-wow-duration="1s">
-<img alt="" src="/demo-12/assets/img/testimonial/testimonial-1-bg-2.html"/>
+<img alt="" src="/demo-12/assets/img/testimonial/testimonial-1-bg-2.png"/>
 </div>
 </div>
 <div class="happy-client">
@@ -539,17 +539,17 @@ export default function Page() {
 <div class="swiper-wrapper testi-avta-bottom pt-20 pb-30">
 <div class="swiper-slide">
 <div class="testimonial-author-thumb">
-<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-1.html"/>
+<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-1.png"/>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="testimonial-author-thumb">
-<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-2.html"/>
+<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-2.png"/>
 </div>
 </div>
 <div class="swiper-slide">
 <div class="testimonial-author-thumb">
-<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-3.html"/>
+<img alt="" src="/demo-12/assets/img/testimonial/testimonial-author-3.png"/>
 </div>
 </div>
 </div>
@@ -637,12 +637,12 @@ export default function Page() {
 <div class="splide__list">
 <div class="splide__slide">
 <div class="brand-slider-item">
-<h4 class="brand-slider-title"> <i><img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.html"/></i> <a href="#">Get In Touch</a> </h4>
+<h4 class="brand-slider-title"> <i><img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.svg"/></i> <a href="#">Get In Touch</a> </h4>
 </div>
 </div>
 <div class="splide__slide">
 <div class="brand-slider-item">
-<h4 class="brand-slider-title"><i> <img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.html"/></i> <a href="#">Healing Is Better</a></h4>
+<h4 class="brand-slider-title"><i> <img alt="" src="/demo-12/assets/img/shape/brand-slider-icon-1.svg"/></i> <a href="#">Healing Is Better</a></h4>
 </div>
 </div>
 <div class="splide__slide">

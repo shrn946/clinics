@@ -507,6 +507,7 @@ window.initResoxAnimations = function() {
 		enableMasonry();
 	});
 
-	
+	handlePreloader();
+	enableMasonry();
 
 };

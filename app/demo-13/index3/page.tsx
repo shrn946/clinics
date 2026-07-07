@@ -79,7 +79,7 @@ export default function Page() {
                                         <div className="form-container">
                                             <form method="post" action="https://azim.commonsupport.com/Resox/blog.html">
                                                 <div className="form-group">
-                                                    <input type="search" name="search-field" value="" placeholder="Search...." required />
+                                                    <input type="search" name="search-field" defaultValue="" placeholder="Search...." required />
                                                     <button type="submit" className="search-btn"><span className="fas fa-search"></span></button>
                                                 </div>
                                             </form>

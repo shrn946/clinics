@@ -596,7 +596,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li.submenu > a:after{
 	content: '\f107';
-	font-family: 'FontAwesome';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	font-size: 14px;
 	margin-left: 8px;
@@ -769,7 +769,7 @@ header.main-header .header-sticky.active{
 .slicknav_arrow:after{
 	content: '\f107';
 	position: absolute;
-	font-family: 'FontAwesome';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	font-size: 12px;
 	margin-left: 8px;
@@ -4956,7 +4956,8 @@ header.main-header .header-sticky.active{
 
 .video-gallery-image a::after{
     content: '\f04b';
-	font-family: 'FontAwesome';
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -8570,7 +8571,8 @@ header.main-header .header-sticky.active{
 .faq-accordion-prime .accordion-item .accordion-button::after,
 .faq-accordion-prime .accordion-item .accordion-button.collapsed::after{
     content: '\2b';
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
     position: absolute;
     top: 50%;
     right: 30px;
@@ -10829,7 +10831,8 @@ header.main-header .header-sticky.active{
 .faq-accordion-royal .accordion-item .accordion-button::after,
 .faq-accordion-royal .accordion-item .accordion-button.collapsed::after{
 	content: '\2b';
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
     position: absolute;
     top: 50%;
     right: 30px;

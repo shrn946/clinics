@@ -42,8 +42,8 @@ export default function Header() {
 
 function DentalLogo({ white = false }: { white?: boolean }) {
   return (
-    <div className="d-flex align-items-center gap-2">
-      <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="d-flex align-items-center gap-3">
+      <svg width="52" height="52" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M50 15C42 15 35 25 35 35C35 45 42 55 42 75C42 85 35 90 40 90C45 90 47 80 50 80C53 80 55 90 60 90C65 90 58 85 58 75C58 55 65 45 65 35C65 25 58 15 50 15Z" fill="url(#tooth-grad)" />
         <path d="M50 25C47 25 45 32 45 38C45 44 47 50 47 62C47 68 43 72 46 72C49 72 50 66 50 62C50 58 50 58 50 62C50 66 51 72 54 72C57 72 53 68 53 62C53 50 55 44 55 38C55 32 53 25 50 25Z" fill="white" opacity="0.3" />
         <defs>
@@ -53,7 +53,7 @@ function DentalLogo({ white = false }: { white?: boolean }) {
           </linearGradient>
         </defs>
       </svg>
-      <span className="fs-4 fw-bold heading-font" style={{ color: white ? '#fff' : '#090A0B', letterSpacing: '0.5px' }}>
+      <span className="fs-3 fw-bold heading-font" style={{ color: white ? '#fff' : '#090A0B', letterSpacing: '0.5px', fontSize: '28px', lineHeight: '1' }}>
         Medi<span style={{ color: '#0EA5E9' }}>Dental</span>
       </span>
     </div>
